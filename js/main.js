@@ -3,25 +3,29 @@ $(document).scroll(function () {
     var y = $(this).scrollTop();
 //height of top div
     var headerImage =  document.getElementById('header-image');
+    var slidingDiv = document.getElementById('come-in-div-one');
     var headerImageHeight = headerImage.offsetHeight - 400;
-    var headerImageHeight2 = headerImageHeight +1;
+    var headerImageHeight2 = headerImageHeight + 500;
+    var headerImageHeight3 = headerImageHeight + 900;
+    var headerImageHeight4 = headerImageHeight + 1000;
     
      
     
-    if(y >= headerImageHeight && y < 1000){
+    if(y >= headerImageHeight && y < headerImageHeight2){
       
-        $('#come-in-div-one').show().addClass('come-in');
+        $('#come-in-div-one').css('opacity', '1').addClass('come-in');
         
-        }else if (y >= headerImageHeight2) {
-         $('#right-side-scroller').show().addClass('come-in-2');
+        }  else if (y >= headerImageHeight2 && y < headerImageHeight3) {
+         $('#right-side-scroller').css('opacity', '1').addClass('come-in-2');
       
-    }else if (y >= headerImageHeight){
+    } else if (y >= headerImageHeight3 && y < headerImageHeight4) {
         
-        $('#bottom-side-scroller').show().addClass('come-in');
-         $('#bottom-right-side-scroller').show().addClass('come-in-2');
+        $('#bottom-side-scroller').css('opacity', '1').addClass('come-in');
         
-    } else if (y >= 1600) 
-        console.log('something');
+         } else if (y >= headerImageHeight4){
+         $('#bottom-right-side-scroller').css('opacity', '1').addClass('come-in-2');
+        
+    } 
 });
 
 $(window).scroll(function() {

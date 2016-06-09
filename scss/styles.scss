@@ -4,7 +4,7 @@
 
 #header-container {
     width: 100%;
-    height: 3000px;
+    height: auto;
     position: relative;
     }
 
@@ -27,19 +27,20 @@ p {
 #come-in-div-one {
     width: 100%;
     height: 400px;
-    background: red;
+    background: blue;
     position: relative;
-    display: none;
-    
+    text-align: right;
+    opacity: 0;
     
 }
 
 #right-side-scroller{
     width: 100%;
     height: 400px;
-    background: blue;
+    background: red;
     position: relative;
-    display: none;
+    opacity: 0;
+
 }
 
 #bottom-side-scroller{
@@ -47,7 +48,7 @@ p {
     height: 400px;
     background: green;
     position: relative;
-    display: none;
+    opacity: 0;
 }
 
 #bottom-right-side-scroller{
@@ -55,8 +56,10 @@ p {
     height: 400px;
     background: yellow;
     position: relative;
-    display: none;
+    opacity: 0;
 }
+
+
 
 #bottom-scroller {
     width: 100%;
@@ -65,14 +68,15 @@ p {
     position: absolute;
     bottom: 0;
     display: none;
-    
-    
     }
+
+
 
 
 .come-in {
   transform: translateX(-100%);
   animation: come-in 1s ease forwards;
+    
 }
 
 
