@@ -1,0 +1,77 @@
+
+#sticky-header {
+    background-color: white;
+    width: 100%; 
+    display: none;
+    position: fixed;
+    z-index: 200;
+    text-align: center;
+   }
+
+#sticky-menu {
+    color:darkgray;
+}
+
+#sticky-ul {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    display: none;
+    position: relative;
+    background-color: white;
+    }
+
+.sticky-li {
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    padding: 20px 0;
+}
+
+.sticky-nav-a {
+    color: darkgray;
+}
+
+
+#sticky-name-sub-container {
+    position: relative;
+}
+
+.sticky-p{
+    color: darkgray;
+    
+}
+
+
+#header-container {
+    width: 100%;
+    height: auto;
+    position: relative;
+    }
+
+
+#header-image-container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/montanaTorre.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    filter:grayscale(1);
+    -webkit-filter: grayscale(100%);
+    position: relative;
+    }
+
+#desktop-nav {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    }
+
+.desktop-nav-a {
+    color:white;
+    padding: 0 10px;
+    text-decoration: none;
+}
+

@@ -2,7 +2,7 @@ $(document).scroll(function () {
     //the current height
     var y = $(this).scrollTop();
 //height of top div
-    var headerImage =  document.getElementById('header-image');
+    var headerImage =  document.getElementById('header-image-container');
     var slidingDiv = document.getElementById('come-in-div-one');
     var headerImageHeight = headerImage.offsetHeight - 400;
     var headerImageHeight2 = headerImageHeight + 500;
@@ -11,22 +11,37 @@ $(document).scroll(function () {
     
      
     
+    /************************SLIDING DIVS and STICKY HEADER*************************/
+     /***********************************************************/
+    
     if(y >= headerImageHeight && y < headerImageHeight2){
       
-        $('#come-in-div-one').css('opacity', '1').addClass('come-in');
+            $('#come-in-div-one').css('opacity', '1').addClass('come-in');
+            $('#sticky-header').show();
         
         }  else if (y >= headerImageHeight2 && y < headerImageHeight3) {
-         $('#right-side-scroller').css('opacity', '1').addClass('come-in-2');
+            $('#right-side-scroller').css('opacity', '1').addClass('come-in-2');
       
-    } else if (y >= headerImageHeight3 && y < headerImageHeight4) {
+        } else if (y >= headerImageHeight3 && y < headerImageHeight4) {
         
-        $('#bottom-side-scroller').css('opacity', '1').addClass('come-in');
+            $('#bottom-side-scroller').css('opacity', '1').addClass('come-in');
         
          } else if (y >= headerImageHeight4){
-         $('#bottom-right-side-scroller').css('opacity', '1').addClass('come-in-2');
+             $('#bottom-right-side-scroller').css('opacity', '1').addClass('come-in-2');
         
     } 
 });
+
+ /************************SHOW HEADER MENU*************************/
+     /***********************************************************/
+
+$('#sticky-menu').click(function(){
+    $('#sticky-ul').toggle();
+});
+
+
+ /************************SHOW FOOTER*************************/
+     /***********************************************************/
 
 $(window).scroll(function() {
     if ($(document).height() <= ($(window).height() + $(window).scrollTop())) {

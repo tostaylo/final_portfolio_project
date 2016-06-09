@@ -1,31 +1,77 @@
-* {
-  box-sizing: border-box; }
+#sticky-header {
+  background-color: white;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 200;
+  text-align: center; }
+
+#sticky-menu {
+  color: darkgray; }
+
+#sticky-ul {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  display: none;
+  position: relative;
+  background-color: white; }
+
+.sticky-li {
+  width: 100%;
+  text-decoration: none;
+  color: black;
+  padding: 20px 0; }
+
+.sticky-nav-a {
+  color: darkgray; }
+
+#sticky-name-sub-container {
+  position: relative; }
+
+.sticky-p {
+  color: darkgray; }
 
 #header-container {
   width: 100%;
   height: auto;
   position: relative; }
 
-#header-image {
+#header-image-container {
   height: 100vh;
   width: 100%;
   background-image: url(../img/montanaTorre.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  background-attachment: fixed;
   filter: grayscale(1);
-  -webkit-filter: grayscale(100%); }
+  -webkit-filter: grayscale(100%);
+  position: relative; }
 
-p {
-  margin: 0; }
+#desktop-nav {
+  position: absolute;
+  bottom: 50px;
+  right: 50px; }
+
+.desktop-nav-a {
+  color: white;
+  padding: 0 10px;
+  text-decoration: none; }
 
 #come-in-div-one {
   width: 100%;
-  height: 400px;
+  height: 100vh;
   background: blue;
   position: relative;
-  text-align: right;
   opacity: 0; }
+
+.come-in-div-projects {
+  height: 33.3333%;
+  width: 100%;
+  margin: 0 auto;
+  background-color: aqua;
+  border: 1px solid black; }
 
 #right-side-scroller {
   width: 100%;
@@ -48,6 +94,12 @@ p {
   position: relative;
   opacity: 0; }
 
+#buffer {
+  width: 100%;
+  height: 400px;
+  background: white;
+  position: relative; }
+
 #bottom-scroller {
   width: 100%;
   height: 200px;
@@ -55,6 +107,12 @@ p {
   position: absolute;
   bottom: 0;
   display: none; }
+
+* {
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
 
 .come-in {
   transform: translateX(-100%);
