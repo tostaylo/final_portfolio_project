@@ -1,50 +1,86 @@
-#come-in-div-one {
+
+@mixin come-in {
     width: 100%;
-    height: 100vh;
-    background: blue;
+    height: 75vh;
+    background: white;
     position: relative;
     opacity: 0;
+    display: inline-flex;
+    margin-top: 50px;
+}
+
+@mixin project {
+    width: 50%;
+    height: 100%;
+    margin: auto auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    vertical-align: middle;
+    position: relative;
+    background-image: url(/img/marineroPortfolioImage1.png);
+    overflow: hidden;
     
+}
+
+//****************COME-IN-DIVS******************//
+//**********************************************//
+.come-in-div {
+  @include come-in;
     }
 
-.come-in-div-projects {
-    height: 33.3333%;
+
+
+
+//****************PROJECTS******************//
+//**********************************************//
+
+.project {
+    @include project;
+    }
+
+#project-two {
+    background-image: url(/img/lightboxExamplePortfolio.png);
+   
+}
+
+
+.overlay {
+    background:rgba(0,0,0,.75);
+    text-align:center;
+    position: absolute;
     width: 100%;
-    margin: 0 auto;
-    background-color: aqua;
-    border: 1px solid black;
+    height: 100%;
+    top: 0;
+    left:0;
+    opacity:0;
+    transition: opacity .25s ease;
+    -webkit-transition: opacity .25s ease;
+    -moz-transition: opacity .25s ease;
+    display: inline-flex;
     
 }
 
-#right-side-scroller{
-    width: 100%;
-    height: 400px;
-    background: red;
-    position: relative;
-    opacity: 0;
-
+.overlay:hover {
+    opacity: 1;
 }
 
-#bottom-side-scroller{
-    width: 100%;
-    height: 400px;
-    background: green;
-    position: relative;
-    opacity: 0;
+.overlay-p {
+    color: white;
+    margin: auto auto;
+    
 }
 
-#bottom-right-side-scroller{
-    width: 100%;
-    height: 400px;
-    background: yellow;
-    position: relative;
-    opacity: 0;
-}
+
+
+
+
 
 #buffer{
     width: 100%;
-    height: 400px;
-    background: white;
+    height: 200px;
+    background: darkgray;
     position: relative;
    
 }
