@@ -1,29 +1,30 @@
+
+
 #github-svg {
-    width: 40px;
-    
+    width: 45px;
+    }
+#github-svg path {
+    fill:gray;
 }
 
 #facebook-svg {
-    width: 45px;
-    
-}
+    width: 50px;
+    }
 
-#facebook-svg:hover {
+#facebook-svg:hover, #github-svg:hover, #email-svg:hover {
     opacity: .8;
-    
-}
+    }
 
 #facebook-svg path{
     fill: gray;
-    
-}
+    }
 
 #email-svg {
-    width: 40px;
-    
-}
+    width: 39px;
+    padding-top: 2px;
+    }
 
 #medium-icon {
-    width: 40px;
-    
-}
+    width: 50px;
+    height: 50px;
+    }
