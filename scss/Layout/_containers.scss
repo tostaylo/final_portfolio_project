@@ -1,4 +1,5 @@
 
+
 @mixin come-in {
     width: 100%;
     height: 50vh;
@@ -159,42 +160,42 @@
 
 
 #background-div-one {
-  background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 50, .5)), url(/img/JessSmokePortfolio.jpg);
+  background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(/img/JessSmokePortfolio.jpg);
    @include moving-background-image;
 }
   
 #background-div-two {
-     background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 50, .5)), url(/img/webDashboardPortfolio.png);
+     background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(/img/webDashboardPortfolio.png);
         @include moving-background-image;
     } 
 
 #background-div-three {
-     background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 50, .5)), url(/img/webAPIPortfolio.png);
+     background: linear-gradient( rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(/img/webAPIPortfolio.png);
         @include moving-background-image;
     }
 
 #background-div-four {
-     background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 50, .5)), url(/img/wodoPier.jpg);
+     background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(/img/wodoPier.jpg);
         @include moving-background-image;
     }
 
 #background-div-five {
-     background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 50, .5)), url(/img/wodoPier.jpg);
+     background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(/img/wodoPier.jpg);
         @include moving-background-image;
     }
 
 #background-div-six {
-     background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 50, .5)), url(/img/registrationFormPortfolio.png);
+     background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(/img/registrationFormPortfolio.png);
         @include moving-background-image;
     }
 
 #background-div-seven {
-     background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 50, .5)), url(/img/videoPlayerPortfolio.png);
+     background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(/img/videoPlayerPortfolio.png);
         @include moving-background-image;
     }
 
 #background-div-eight {
-     background: linear-gradient(rgba(0, 0, 0, .8), rgba(50, 0, 50, .5)), url(/img/webDashboardPortfolio.png);
+     background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(/img/webDashboardPortfolio.png);
         @include moving-background-image;
     }
 
@@ -210,11 +211,11 @@ figure.effect-project .background-div {
 	max-width: none;
 	width: -webkit-calc(100% + 50px);
 	width: calc(100% + 50px);
-	opacity: .7;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 	-webkit-transform: translate3d(-40px,0, 0);
 	transform: translate3d(-40px,0,0);
+   
 }
 
 figure.effect-project figcaption {
@@ -250,7 +251,7 @@ figure.effect-project p {
 
 figure.effect-project:hover .background-div,
 figure.effect-project:hover p {
-	opacity: 1;
+	opacity: .2;
 }
 
 figure.effect-project:hover .background-div,

@@ -168,7 +168,7 @@
   font-size: 68.5%; }
 
 #background-div-one {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 50, 0.5)), url(/img/JessSmokePortfolio.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/JessSmokePortfolio.jpg);
   -webkit-filter: blur(2px);
   background-repeat: no-repeat;
   background-position: center;
@@ -177,7 +177,7 @@
   height: 120%; }
 
 #background-div-two {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 50, 0.5)), url(/img/webDashboardPortfolio.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/webDashboardPortfolio.png);
   -webkit-filter: blur(2px);
   background-repeat: no-repeat;
   background-position: center;
@@ -186,7 +186,7 @@
   height: 120%; }
 
 #background-div-three {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 50, 0.5)), url(/img/webAPIPortfolio.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/webAPIPortfolio.png);
   -webkit-filter: blur(2px);
   background-repeat: no-repeat;
   background-position: center;
@@ -195,7 +195,7 @@
   height: 120%; }
 
 #background-div-four {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 50, 0.5)), url(/img/wodoPier.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/wodoPier.jpg);
   -webkit-filter: blur(2px);
   background-repeat: no-repeat;
   background-position: center;
@@ -204,7 +204,7 @@
   height: 120%; }
 
 #background-div-five {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 50, 0.5)), url(/img/wodoPier.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/wodoPier.jpg);
   -webkit-filter: blur(2px);
   background-repeat: no-repeat;
   background-position: center;
@@ -213,7 +213,7 @@
   height: 120%; }
 
 #background-div-six {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 50, 0.5)), url(/img/registrationFormPortfolio.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/registrationFormPortfolio.png);
   -webkit-filter: blur(2px);
   background-repeat: no-repeat;
   background-position: center;
@@ -222,7 +222,7 @@
   height: 120%; }
 
 #background-div-seven {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 50, 0.5)), url(/img/videoPlayerPortfolio.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/videoPlayerPortfolio.png);
   -webkit-filter: blur(2px);
   background-repeat: no-repeat;
   background-position: center;
@@ -231,7 +231,7 @@
   height: 120%; }
 
 #background-div-eight {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(50, 0, 50, 0.5)), url(/img/webDashboardPortfolio.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/webDashboardPortfolio.png);
   -webkit-filter: blur(2px);
   background-repeat: no-repeat;
   background-position: center;
@@ -247,7 +247,6 @@ figure.effect-project .background-div {
   max-width: none;
   width: -webkit-calc(100% + 50px);
   width: calc(100% + 50px);
-  opacity: .7;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
   -webkit-transform: translate3d(-40px, 0, 0);
@@ -281,7 +280,7 @@ figure.effect-project p {
 
 figure.effect-project:hover .background-div,
 figure.effect-project:hover p {
-  opacity: 1; }
+  opacity: .2; }
 
 figure.effect-project:hover .background-div,
 figure.effect-project:hover h2,
