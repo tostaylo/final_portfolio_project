@@ -32,6 +32,17 @@
     height: 120%;
 }
 
+@mixin header-image-container {
+  height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    text-align: center;
+}
+
 #sticky-header {
     background-color: white;
     opacity: .9;
@@ -44,6 +55,7 @@
 
 #sticky-menu {
     color:darkgray;
+    cursor: pointer
 }
 
 #sticky-ul {
@@ -65,11 +77,13 @@
 .sticky-nav-a {
     color: darkgray;
     font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
 }
 
 
 #sticky-name-sub-container {
     position: relative;
+   
 }
 
 .sticky-p{
@@ -86,17 +100,17 @@
     }
 
 
+
+
 #header-image-container {
-    height: 100vh;
-    width: 100%;
+    @include header-image-container;
     background-image: url(/img/wodoPier.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-    text-align: center;
-    }
+  }
+
+#header-image-container-project1 {
+    @include header-image-container;
+    background-image: url(/img/videoPlayerPortfolio.png);
+}
 
 #main-logo {
     background-color: transparent;
@@ -110,6 +124,7 @@
     right: 0;
     margin: 0 auto;
     text-align: center;
+   
    }
 
 #desktop-nav {

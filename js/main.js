@@ -2,12 +2,13 @@ $(document).scroll(function () {
     //the current height
     var y = $(this).scrollTop();
 //height of top div
-    var headerImage =  document.getElementById('header-image-container');
+ //   var headerImage =  document.getElementById('header-image-container');
+    var headerImage =  document.querySelector('.header-image-container');
     var slidingDiv = document.getElementById('come-in-div-one');
-    var headerImageHeight = headerImage.offsetHeight - 400;
+    var headerImageHeight = headerImage.offsetHeight - 450;
     var headerImageHeight2 = headerImageHeight + 200;
     var headerImageHeight3 = headerImageHeight + 600;
-    var headerImageHeight4 = headerImageHeight + 1000;
+    var headerImageHeight4 = headerImageHeight + 800;
     
      
     
@@ -16,6 +17,9 @@ $(document).scroll(function () {
     
     if(y < headerImageHeight) {
         $('#sticky-header').hide('slow');
+        
+        
+          
         
         } else if(y >= headerImageHeight && y < headerImageHeight2){
       
@@ -42,7 +46,17 @@ $('#sticky-menu').click(function(){
     $('#sticky-ul').toggle();
 });
 
-
+/************************L and R ARROWS*************************/
+     /***********************************************************/
+$('#right-arrow').hover(function(){
+    $(this).animate({width: '150px'}, 500)} , 
+                        
+                        function() {
+        
+    $(this).animate({width: '50px'}, 500);
+    
+    
+});
 
 
 

@@ -8,7 +8,8 @@
   text-align: center; }
 
 #sticky-menu {
-  color: darkgray; }
+  color: darkgray;
+  cursor: pointer; }
 
 #sticky-ul {
   width: 100%;
@@ -26,7 +27,8 @@
 
 .sticky-nav-a {
   color: darkgray;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer; }
 
 #sticky-name-sub-container {
   position: relative; }
@@ -44,13 +46,24 @@
 #header-image-container {
   height: 100vh;
   width: 100%;
-  background-image: url(/img/wodoPier.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
-  text-align: center; }
+  text-align: center;
+  background-image: url(/img/wodoPier.jpg); }
+
+#header-image-container-project1 {
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  text-align: center;
+  background-image: url(/img/videoPlayerPortfolio.png); }
 
 #main-logo {
   background-color: transparent;
@@ -74,6 +87,10 @@
   padding: 0 10px;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif; }
+
+.project-container {
+  width: 100%;
+  height: 1000px; }
 
 .come-in-div {
   width: 100%;
@@ -318,7 +335,8 @@ figure.effect-project:hover p {
 
 img {
   width: 190px;
-  height: 190px; }
+  height: 190px;
+  cursor: pointer; }
 
 #github-svg {
   width: 45px; }
@@ -348,6 +366,22 @@ img {
 
 a {
   text-decoration: none; }
+
+#right-arrow {
+  width: 50px;
+  height: 50px;
+  background: black;
+  position: fixed;
+  top: 50%;
+  right: 0; }
+
+#left-arrow {
+  width: 50px;
+  height: 50px;
+  background: black;
+  position: fixed;
+  top: 50%;
+  left: 0; }
 
 .come-in {
   transform: translateX(-100%);
