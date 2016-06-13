@@ -5,8 +5,8 @@ $(document).scroll(function () {
     var headerImage =  document.getElementById('header-image-container');
     var slidingDiv = document.getElementById('come-in-div-one');
     var headerImageHeight = headerImage.offsetHeight - 400;
-    var headerImageHeight2 = headerImageHeight + 500;
-    var headerImageHeight3 = headerImageHeight + 900;
+    var headerImageHeight2 = headerImageHeight + 200;
+    var headerImageHeight3 = headerImageHeight + 600;
     var headerImageHeight4 = headerImageHeight + 1000;
     
      
