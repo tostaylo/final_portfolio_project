@@ -6,9 +6,9 @@ $(document).scroll(function () {
     var headerImage =  document.querySelector('.header-image-container');
     var slidingDiv = document.getElementById('come-in-div-one');
     var headerImageHeight = headerImage.offsetHeight - 450;
-    var headerImageHeight2 = headerImageHeight + 200;
-    var headerImageHeight3 = headerImageHeight + 600;
-    var headerImageHeight4 = headerImageHeight + 800;
+    var headerImageHeight2 = headerImageHeight + 350;
+    var headerImageHeight3 = headerImageHeight + 800;
+    var headerImageHeight4 = headerImageHeight + 1150;
     
      
     
@@ -57,6 +57,17 @@ $('#right-arrow').hover(function(){
     
     
 });
+
+$('#left-arrow').hover(function(){
+    $(this).animate({width: '150px'}, 500)} , 
+                        
+                        function() {
+        
+    $(this).animate({width: '50px'}, 500);
+    
+    
+});
+
 
 
 
