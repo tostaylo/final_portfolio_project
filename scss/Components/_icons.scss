@@ -4,29 +4,29 @@ img {
     cursor: pointer;
 }
 
-#github-svg {
-    width: 45px;
-    }
-#github-svg path {
-    fill:gray;
+.svg-div {
+
+    width: 50px;
+    height: 50px;
 }
 
-#facebook-svg {
-    width: 50px;
+.svg-div:hover {
+    transform: rotate(30deg);
+    transition: transform 0.5s ease-in-out;
+}
+
+svg:hover .svg-gray{
+    fill: black;
     }
 
-#facebook-svg:hover, #github-svg:hover, #email-svg:hover {
-    opacity: .8;
-    }
+#medium-div {
+   border: 1px solid  #E5E5E5;
+    border-radius: 100%;
+}
 
-#facebook-svg path{
-    fill: gray;
-    }
-
-#email-svg {
-    width: 39px;
-    padding-top: 2px;
-    }
+#medium-div:hover {
+    border-color: black;
+}
 
 #medium-icon {
     width: 50px;

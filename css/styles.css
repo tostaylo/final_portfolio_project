@@ -54,17 +54,6 @@
   text-align: center;
   background-image: url(/img/wodoPier.jpg); }
 
-#header-image-container-project1 {
-  height: 100vh;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed;
-  position: relative;
-  text-align: center;
-  background-image: url(/img/videoPlayerPortfolio.png); }
-
 #main-logo {
   background-color: transparent;
   color: white;
@@ -88,10 +77,6 @@
   text-decoration: none;
   font-family: 'Montserrat', sans-serif; }
 
-.project-container {
-  width: 100%;
-  height: 1000px; }
-
 .come-in-div {
   width: 100%;
   height: 50vh;
@@ -104,16 +89,6 @@
   width: 100%;
   height: 200px;
   position: relative; }
-
-.svg-div {
-  background-color: white;
-  border-radius: 100%;
-  width: 50px;
-  height: 50px; }
-
-.svg-div:hover {
-  transform: rotate(30deg);
-  transition: transform 1s ease-in-out; }
 
 .grid {
   position: relative;
@@ -314,6 +289,68 @@ figure.effect-project:hover p {
   -webkit-transition-duration: 0.35s;
   transition-duration: 0.35s; }
 
+.arrow {
+  display: flex;
+  align-items: center;
+  cursor: pointer; }
+
+#right-arrow {
+  width: 50px;
+  height: 50px;
+  background: white;
+  opacity: .6;
+  position: fixed;
+  top: 50%;
+  right: 0; }
+
+#left-arrow {
+  width: 50px;
+  height: 50px;
+  background: white;
+  opacity: .6;
+  position: fixed;
+  top: 50%;
+  left: 0;
+  text-align: right; }
+
+#right-project {
+  display: none; }
+
+#header-image-container-project1 {
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  text-align: center;
+  background-image: url(/img/videoPlayerPortfolio.png);
+  width: 90%;
+  height: 500px;
+  margin: 0 auto; }
+
+.project-container {
+  width: 90%;
+  height: 1000px;
+  margin: 0 auto; }
+
+.project-picture-label-container {
+  overflow: hidden; }
+
+.project-picture-label {
+  opacity: .8;
+  transform: rotate(30deg);
+  font-size: 100px; }
+
+.bottom-project-container {
+  background-image: url(/img/videoPlayerPortfolio.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 90%;
+  height: 400px;
+  margin: 0 auto; }
+
 #bottom-scroller {
   width: 100%;
   height: 200px;
@@ -338,24 +375,23 @@ img {
   height: 190px;
   cursor: pointer; }
 
-#github-svg {
-  width: 45px; }
+.svg-div {
+  width: 50px;
+  height: 50px; }
 
-#github-svg path {
-  fill: gray; }
+.svg-div:hover {
+  transform: rotate(30deg);
+  transition: transform 0.5s ease-in-out; }
 
-#facebook-svg {
-  width: 50px; }
+svg:hover .svg-gray {
+  fill: black; }
 
-#facebook-svg:hover, #github-svg:hover, #email-svg:hover {
-  opacity: .8; }
+#medium-div {
+  border: 1px solid  #E5E5E5;
+  border-radius: 100%; }
 
-#facebook-svg path {
-  fill: gray; }
-
-#email-svg {
-  width: 39px;
-  padding-top: 2px; }
+#medium-div:hover {
+  border-color: black; }
 
 #medium-icon {
   width: 50px;
@@ -366,24 +402,6 @@ img {
 
 a {
   text-decoration: none; }
-
-#right-arrow {
-  width: 50px;
-  height: 50px;
-  background: white;
-  opacity: .6;
-  position: fixed;
-  top: 50%;
-  right: 0; }
-
-#left-arrow {
-  width: 50px;
-  height: 50px;
-  background: white;
-  opacity: .6;
-  position: fixed;
-  top: 50%;
-  left: 0; }
 
 .come-in {
   transform: translateX(-100%);

@@ -49,11 +49,14 @@ $('#sticky-menu').click(function(){
 /************************L and R ARROWS*************************/
      /***********************************************************/
 $('#right-arrow').hover(function(){
-    $(this).animate({width: '150px'}, 500)} , 
+    $(this).animate({width: '150px'}, 300);
+$('#right-project').stop().show('5000');
+} , 
                         
                         function() {
         
     $(this).animate({width: '50px'}, 500);
+    $('#right-project').fadeOut('5000');
     
     
 });

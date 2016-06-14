@@ -1,0 +1,70 @@
+
+.arrow {
+  display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#right-arrow {
+    width: 50px;
+    height: 50px;
+    background: white;
+    opacity: .6;
+    position: fixed;
+    top: 50%;
+    right:0;
+    }
+
+#left-arrow {
+     width: 50px;
+    height: 50px;
+    background: white;
+    opacity: .6;
+    position: fixed;
+    top: 50%;
+    left:0;
+    text-align: right;
+    }
+
+#left-arrow-svg {
+    
+}
+#right-project {
+    display: none;
+}
+
+#header-image-container-project1 {
+    @include header-image-container;
+    background-image: url(/img/videoPlayerPortfolio.png);
+    width: 90%;
+   height: 500px;
+    margin: 0 auto;
+   
+}
+
+.project-container {
+    width: 90%;
+    height: 1000px;
+
+    margin: 0 auto;
+}
+
+.project-picture-label-container {
+    overflow:hidden;
+}
+
+.project-picture-label {
+    opacity: .8;
+    transform: rotate(30deg);
+    font-size: 100px;
+}
+
+.bottom-project-container {
+    background-image: url(/img/videoPlayerPortfolio.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+    }
+
