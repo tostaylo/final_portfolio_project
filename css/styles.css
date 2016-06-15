@@ -313,6 +313,10 @@ figure.effect-project:hover p {
   left: 0;
   text-align: right; }
 
+#left-arrow-svg {
+  position: absolute;
+  right: 0; }
+
 #right-project {
   display: none; }
 
@@ -386,6 +390,12 @@ img {
 svg:hover .svg-gray {
   fill: black; }
 
+.svg-div:hover .svg-polygon {
+  fill-opacity: .5; }
+
+.svg-div:hover .svg-opacity {
+  fill-opacity: .5; }
+
 #medium-div {
   border: 1px solid  #E5E5E5;
   border-radius: 100%; }
@@ -396,6 +406,9 @@ svg:hover .svg-gray {
 #medium-icon {
   width: 50px;
   height: 50px; }
+
+#medium-icon:hover {
+  opacity: .5; }
 
 * {
   box-sizing: border-box; }

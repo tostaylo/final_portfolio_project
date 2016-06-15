@@ -50,13 +50,13 @@ $('#sticky-menu').click(function(){
      /***********************************************************/
 $('#right-arrow').hover(function(){
     $(this).animate({width: '150px'}, 300);
-$('#right-project').stop().show('5000');
+$('#right-project').stop().fadeIn('slow');
 } , 
                         
                         function() {
         
     $(this).animate({width: '50px'}, 500);
-    $('#right-project').fadeOut('5000');
+    $('#right-project').stop().hide('fast');
     
     
 });
