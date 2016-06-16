@@ -85,3 +85,15 @@ $(window).scroll(function() {
         
     
 });
+
+
+
+/************************BlUR PROJECT*************************/
+     /***********************************************************/
+
+
+$(window).scroll(function() {
+  var s = $(window).scrollTop(),
+    opacityVal = (s / 150.0);
+    $('.project-overlay').css('opacity', opacityVal);
+});

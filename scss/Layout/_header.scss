@@ -58,6 +58,10 @@
     cursor: pointer
 }
 
+#sticky-menu:hover {
+    color:black;
+}
+
 #sticky-ul {
     width: 100%;
     list-style: none;
@@ -71,13 +75,16 @@
     width: 100%;
     text-decoration: none;
     color: black;
-    padding: 20px 0;
+    padding: 12px 0;
 }
 
 .sticky-nav-a {
     color: darkgray;
-    font-family: 'Montserrat', sans-serif;
     cursor: pointer;
+}
+
+.sticky-nav-a:hover {
+    color:black;
 }
 
 
@@ -88,10 +95,31 @@
 
 .sticky-p{
     color: darkgray;
-    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
     margin: 20px 0 0 0;
 }
 
+.sticky-logo-div {
+    color: black;
+    font-weight: 100;
+    width: 300px;
+    margin: 10px auto;
+}
+.sticky-logo-name {
+    font-weight: 100;
+    font-size: 12px;
+    letter-spacing: 3px ;
+    color: black;
+}
+
+.sticky-logo-tagline {
+    color:black;
+    font-weight: 100;
+    font-size: 8px;
+    letter-spacing:2px;
+   
+}
 
 #main-container {
     width: 100%;
@@ -104,25 +132,45 @@
 
 #header-image-container {
     @include header-image-container;
-    background-image: url(/img/wodoPier.jpg);
+    background-image: url(/img/wodoStars.jpg);
   }
 
 
 
 #main-logo {
     background-color: transparent;
-    
     color: white;
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: auto;
     position: absolute;
-    bottom: 40%;
+    bottom: 45%;
     left: 0;
     right: 0;
     margin: 0 auto;
     text-align: center;
-   
    }
+
+.logo-p{
+    margin: 0;
+   
+}
+
+
+#main-logo-name {
+    opacity: .8;
+    font-weight: 100;
+    font-size: 18px;
+    letter-spacing: 12px;
+    
+}
+
+#main-logo-tagline {
+    opacity: .5;
+    font-weight: 100;
+    font-size: 12px;
+    letter-spacing: 10px;
+    line-height: 14px;
+}
 
 #desktop-nav {
     position: absolute;
