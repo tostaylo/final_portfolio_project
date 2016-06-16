@@ -9,6 +9,8 @@
 
 
 
+
+
 * {
     box-sizing: border-box;
    
@@ -22,7 +24,16 @@ a {
 
 
 
-
+$breakpoint-tablet: 768px;
+@media (min-width: $breakpoint-tablet) {
+    .project-description{
+        display: flex;
+    }
+    
+    .about-description {
+        display: flex;
+    }
+}
 
 
 

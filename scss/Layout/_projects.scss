@@ -28,18 +28,22 @@
     }
 
 #left-arrow-svg {
-   
-    position: absolute;
-    right:0;
-    
-}
+  
+    }
 
 #right-arrow-svg{
     
 }
-
 #right-project {
     display: none;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+#left-project {
+    display: none;
+    margin-left: 10px;
+    margin-right: 20px;
 }
 
 .top-of-header-container{
