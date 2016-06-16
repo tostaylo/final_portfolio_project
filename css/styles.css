@@ -329,84 +329,6 @@ figure.effect-project:hover p {
   -webkit-transition-duration: 0.35s;
   transition-duration: 0.35s; }
 
-.arrow {
-  display: flex;
-  align-items: center;
-  cursor: pointer; }
-
-#right-arrow {
-  width: 50px;
-  height: 50px;
-  background: white;
-  opacity: .6;
-  position: fixed;
-  top: 50%;
-  right: 0; }
-
-#left-arrow {
-  width: 50px;
-  height: 50px;
-  background: white;
-  opacity: .6;
-  position: fixed;
-  top: 50%;
-  left: 0;
-  text-align: right; }
-
-#left-arrow-svg {
-  position: absolute;
-  right: 0; }
-
-#right-project {
-  display: none; }
-
-#header-image-container-project1 {
-  height: 100vh;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed;
-  position: relative;
-  text-align: center;
-  background-image: url(/img/videoPlayerPortfolio.png);
-  width: 90%;
-  height: 50vh;
-  margin: 0 auto;
-  position: relative;
-  z-index: 100; }
-
-.project-overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background-color: black;
-  opacity: 0;
-  z-index: 105; }
-
-.project-container {
-  width: 90%;
-  height: 1000px;
-  margin: 0 auto; }
-
-.project-picture-label-container {
-  overflow: hidden; }
-
-.project-picture-label {
-  font-size: 70px; }
-
-.bottom-project-container {
-  background-image: url(/img/videoPlayerPortfolio.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 90%;
-  height: 400px;
-  margin: 0 auto; }
-
 #bottom-scroller {
   width: 100%;
   height: 200px;
@@ -456,6 +378,116 @@ svg:hover .svg-gray {
 
 #medium-icon:hover {
   opacity: .5; }
+
+.arrow {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  z-index: 200; }
+
+#right-arrow {
+  width: 50px;
+  height: 50px;
+  background: white;
+  opacity: .6;
+  position: fixed;
+  top: 50%;
+  right: 0; }
+
+#left-arrow {
+  width: 50px;
+  height: 50px;
+  background: white;
+  opacity: .6;
+  position: fixed;
+  top: 50%;
+  left: 0;
+  text-align: right; }
+
+#left-arrow-svg {
+  position: absolute;
+  right: 0; }
+
+#right-project {
+  display: none; }
+
+.top-of-header-container {
+  width: 100%;
+  background: white;
+  height: 95px;
+  display: flex;
+  align-items: center; }
+
+.top-of-header-logo-container {
+  margin-left: 10px;
+  text-align: center; }
+
+#header-image-container-project1 {
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  text-align: center;
+  background-image: url(/img/placeit.jpg);
+  width: 90%;
+  height: 50vh;
+  margin: 0 auto;
+  position: relative;
+  z-index: 100; }
+
+.project-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: black;
+  opacity: 0;
+  z-index: 105; }
+
+.project-container {
+  width: 90%;
+  height: auto;
+  margin: 0 auto; }
+
+.project-intro-title {
+  color: black; }
+
+.project-intro-p {
+  color: darkgray;
+  font-size: 10px; }
+
+.project-picture-label-container {
+  overflow: hidden; }
+
+.project-picture-label {
+  font-size: 70px;
+  color: white;
+  opacity: .4aa; }
+
+.bottom-project-container {
+  background-image: url(/img/videoPlayerPortfolio.png);
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 400px;
+  margin: 0 auto; }
+
+#about-header-image-container {
+  height: 300px;
+  width: 90%;
+  margin: 0 auto; }
+
+#about-heading-h1 {
+  border-bottom: 1px solid darkgray; }
+
+.about-description {
+  width: 90%;
+  margin: 0 auto; }
 
 * {
   box-sizing: border-box; }
