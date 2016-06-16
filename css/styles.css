@@ -407,6 +407,9 @@ svg:hover .svg-gray {
   left: 0;
   text-align: right; }
 
+#right-arrow-svg {
+  margin-left: 13px; }
+
 #right-project {
   display: none;
   margin-left: 20px;
@@ -416,6 +419,9 @@ svg:hover .svg-gray {
   display: none;
   margin-left: 10px;
   margin-right: 20px; }
+
+.project-arrow-a {
+  color: black; }
 
 .top-of-header-container {
   width: 100%;
@@ -460,6 +466,15 @@ svg:hover .svg-gray {
   width: 90%;
   height: auto;
   margin: 0 auto; }
+
+.project-heading-h1 {
+  margin-bottom: 0; }
+
+.project-heading-h3 {
+  margin-top: 0;
+  color: darkgray;
+  font-style: italic;
+  font-weight: 100; }
 
 .project-intro-title {
   color: black; }
