@@ -267,7 +267,7 @@
   height: 120%; }
 
 #background-div-eight {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/webDashboardPortfolio.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/portfolioPortfolio.png);
   -webkit-filter: blur(2px);
   background-repeat: no-repeat;
   background-position: center;
@@ -381,6 +381,11 @@ svg:hover .svg-gray {
 
 #medium-icon:hover {
   opacity: .5; }
+
+a[href^="tel:"]:before {
+  content: "\260E";
+  display: inline-block;
+  margin-right: 0.5em; }
 
 .arrow {
   display: flex;

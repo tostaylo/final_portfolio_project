@@ -42,3 +42,9 @@ svg:hover .svg-gray{
 #medium-icon:hover {
     opacity: .5;
 }
+
+a[href^="tel:"]:before {
+    content: "\260E";
+    display: inline-block;
+    margin-right: 0.5em;
+}
