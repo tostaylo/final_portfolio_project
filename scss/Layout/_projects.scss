@@ -27,9 +27,6 @@
     text-align: right;
     }
 
-#left-arrow-svg {
-  
-    }
 
 #right-arrow-svg{
     margin-left: 13px;
@@ -49,6 +46,15 @@
 .project-arrow-a {
     color: black;
 }
+
+
+
+
+
+
+
+/********************** HEADER*******************/
+
 .top-of-header-container{
     width: 100%;
     background: white;
@@ -64,14 +70,15 @@
 
 #header-image-container-project1 {
     @include header-image-container;
-    background-image: url(/img/placeit.jpg);
+    background-attachment: scroll;
     width: 90%;
-    height: 50vh;
+    height: 75vh;
     margin: 0 auto;
     position: relative;
     z-index: 100;
-   
-}
+   }
+
+
 
 .project-overlay {
     position: absolute;
@@ -128,10 +135,43 @@
 }
 
 .bottom-project-container {
-    background-image: url(/img/videoPlayerPortfolio.png);
-    background-repeat: no-repeat;
+  
     width: 50%;
     height: 400px;
     margin: 0 auto;
+    display: flex;
     }
+.bottom-project-container-right{
+    width: 50%;
+    height:100%;
+}
+.bottom-project-container-left {
+    height:100%;
+    width:50%;
+    background-image: url(/img/JessSmokePortfolio.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;    
+    }
+
+.bottom-project-container-right-top {
+    height:40%;
+    width:100%;
+     background-image: url(/img/JessSmokePortfolio.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;    
+    
+}
+
+.bottom-project-container-right-bottom {
+    height:60%;
+    width:100%;
+     background-image: url(/img/JessSmokePortfolio.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;    
+}
+
+
 
