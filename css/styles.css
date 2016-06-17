@@ -389,13 +389,14 @@ svg:hover .svg-gray {
   z-index: 200; }
 
 #right-arrow {
-  width: 50px;
-  height: 50px;
+  width: 200px;
+  height: 60px;
   background: white;
   opacity: .6;
   position: fixed;
   top: 50%;
-  right: 0; }
+  right: -150px;
+  cursor: pointer; }
 
 #left-arrow {
   width: 50px;
@@ -411,9 +412,9 @@ svg:hover .svg-gray {
   margin-left: 13px; }
 
 #right-project {
-  display: none;
   margin-left: 20px;
-  margin-right: 10px; }
+  margin-right: 10px;
+  max-width: 100%; }
 
 #left-project {
   display: none;
@@ -422,6 +423,9 @@ svg:hover .svg-gray {
 
 .project-arrow-a {
   color: black; }
+
+.right-arrow-h5, .left-arrow-h5 {
+  color: rebeccapurple; }
 
 /********************** HEADER*******************/
 .top-of-header-container {
@@ -444,6 +448,8 @@ svg:hover .svg-gray {
   background-attachment: fixed;
   position: relative;
   text-align: center;
+  background-image: url(/img/iphoneJessSmoke.jpg);
+  background-size: contain;
   background-attachment: scroll;
   width: 90%;
   height: 75vh;
@@ -471,11 +477,21 @@ svg:hover .svg-gray {
 .project-heading-h1 {
   margin-bottom: 0; }
 
+.project-heading-h5 {
+  margin-top: 0;
+  color: rebeccapurple; }
+
 .project-heading-h3 {
   margin-top: 0;
+  margin-bottom: 100px;
+  width: 320px;
   color: darkgray;
   font-style: italic;
-  font-weight: 100; }
+  font-weight: 100;
+  border-bottom: .5px solid darkgray; }
+
+.project-description {
+  margin-bottom: 50px; }
 
 .project-intro-title {
   color: black; }
@@ -493,8 +509,8 @@ svg:hover .svg-gray {
   opacity: .4aa; }
 
 .bottom-project-container {
-  width: 50%;
-  height: 400px;
+  width: 80%;
+  height: 500px;
   margin: 0 auto;
   display: flex; }
 
@@ -505,24 +521,24 @@ svg:hover .svg-gray {
 .bottom-project-container-left {
   height: 100%;
   width: 50%;
-  background-image: url(/img/JessSmokePortfolio.jpg);
+  background-image: url(/img/jessRed.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
 
 .bottom-project-container-right-top {
-  height: 40%;
+  height: 45%;
   width: 100%;
-  background-image: url(/img/JessSmokePortfolio.jpg);
-  background-position: center;
+  background-image: url(/img/jessContact.png);
+  background-position: top center;
   background-repeat: no-repeat;
   background-size: cover; }
 
 .bottom-project-container-right-bottom {
-  height: 60%;
+  height: 55%;
   width: 100%;
-  background-image: url(/img/JessSmokePortfolio.jpg);
-  background-position: center;
+  background-image: url(/img/jessBio.png);
+  background-position: top center;
   background-repeat: no-repeat;
   background-size: cover; }
 

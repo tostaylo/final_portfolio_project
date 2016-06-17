@@ -40,13 +40,14 @@ $('#sticky-menu').click(function(){
 /************************L and R ARROWS*************************/
      /***********************************************************/
 $('#right-arrow').hover(function(){
-    $(this).animate({width: '150px'}, 300);
-$('#right-project').stop().fadeIn('slow');
+    $(this).stop(true).animate({right: '-10px'}, 300);
+  /*  $(this).animate({width: '150px'}, 300);
+$('#right-project').stop().fadeIn('slow');*/
 } , 
                         
                         function() {
-         $(this).animate({width: '50px'}, 500);
-    $('#right-project').stop().hide('fast');
+         $(this).stop(true).animate({right: '-150px'}, 500);
+   // $('#right-project').stop().hide('fast');
     });
 
 $('#left-arrow').hover(function(){
@@ -82,6 +83,6 @@ $(window).scroll(function() {
 
 $(window).scroll(function() {
   var s = $(window).scrollTop(),
-    opacityVal = (s / 150.0);
+    opacityVal = (s / 600.0);
     $('.project-overlay').css('opacity', opacityVal);
 });
