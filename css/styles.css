@@ -555,7 +555,7 @@ a[href^="tel:"]:before {
 
 #about-header-image-container {
   height: 300px;
-  width: 90%;
+  width: 80%;
   margin: 0 auto; }
 
 #about-heading-h1 {
@@ -565,8 +565,11 @@ a[href^="tel:"]:before {
   color: rebeccapurple; }
 
 .about-description {
-  width: 90%;
+  width: 80%;
   margin: 0 auto; }
+
+.about-intro-container {
+  margin: 0 20px 100px 0; }
 
 .my-pic {
   width: 200px;
@@ -583,8 +586,17 @@ a[href^="tel:"]:before {
 .resume {
   color: rebeccapurple; }
 
-[href$=".pdf"]::after {
-  content: " " url("https://cdn3.iconfinder.com/data/icons/document-icons-2/30/647716-pdf-24.png"); }
+.pdf-svg {
+  width: 50px;
+  height: 50px; }
+
+.pdf-opacity:hover {
+  fill: white; }
+
+.phone {
+  color: rebeccapurple;
+  font-size: 10px;
+  line-height: 0; }
 
 * {
   box-sizing: border-box; }
