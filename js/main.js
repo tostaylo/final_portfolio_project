@@ -41,24 +41,22 @@ $('#sticky-menu').click(function(){
      /***********************************************************/
 $('#right-arrow').hover(function(){
     $(this).stop(true).animate({right: '-10px'}, 300);
-  /*  $(this).animate({width: '150px'}, 300);
-$('#right-project').stop().fadeIn('slow');*/
+
 } , 
                         
                         function() {
          $(this).stop(true).animate({right: '-150px'}, 500);
-   // $('#right-project').stop().hide('fast');
+   
     });
 
 $('#left-arrow').hover(function(){
     $(this).stop(true).animate({left: '-10px'}, 300);
-   /* $(this).animate({width: '150px'}, 300);
-      $('#left-project').stop().fadeIn('slow');*/
+ 
 } , 
                         
                         function() {
         $(this).stop(true).animate({left: '-150px'}, 500);
-    // $('#left-project').stop().hide('fast');
+    
     });
 
 
@@ -86,4 +84,16 @@ $(window).scroll(function() {
   var s = $(window).scrollTop(),
     opacityVal = (s / 600.0);
     $('.project-overlay').css('opacity', opacityVal);
+});
+
+/************************BlUR PROJECT*************************/
+     /***********************************************************/
+
+
+$(document).ready(function(){
+setTimeout(function(){
+
+        $('.letter-appear').fadeIn(3000);
+}, 5000);
+
 });
