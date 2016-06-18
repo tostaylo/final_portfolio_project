@@ -12,20 +12,21 @@
     background: white;
     opacity: .6;
     position: fixed;
-    top: 50%;
+    top: 45%;
     right:-150px;
     cursor: pointer;
     }
 
 #left-arrow {
-     width: 50px;
-    height: 50px;
+    width: 200px;
+    height: 60px;
     background: white;
     opacity: .6;
     position: fixed;
-    top: 50%;
-    left:0;
+    top: 45%;
+    left:-150px;
     text-align: right;
+    cursor: pointer
     }
 
 
@@ -36,16 +37,13 @@
   
     margin-left: 20px;
     margin-right: 10px;
-    max-width: 100%;
-   
+    
 }
 
 #left-project {
-    display: none;
-    margin-left: 10px;
+    margin-left: 60px;
     margin-right: 20px;
-    
-}
+    }
 
 .project-arrow-a {
     color: black;
@@ -80,7 +78,7 @@
 #header-image-container-project1 {
     @include header-image-container;
     background-image: url(/img/iphoneJessSmoke.jpg);
-    background-size: contain;
+    background-size: cover;
     background-attachment: scroll;
     width: 90%;
     height: 75vh;

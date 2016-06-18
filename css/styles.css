@@ -8,14 +8,19 @@
   text-align: center; }
 
 #sticky-menu {
+  width: 60px;
+  margin: 0 auto;
   color: darkgray;
-  cursor: pointer; }
+  cursor: pointer;
+  border-bottom: .5px solid darkgray; }
 
 #sticky-menu:hover {
   color: black; }
 
 #sticky-ul {
-  width: 100%;
+  width: 70px;
+  margin: 0 auto;
+  border-bottom: .5px solid darkgray;
   list-style: none;
   padding: 0;
   display: none;
@@ -126,7 +131,8 @@
   background: white;
   position: relative;
   opacity: 0;
-  display: flex; }
+  display: flex;
+  margin: 15px 0; }
 
 #buffer {
   width: 100%;
@@ -138,7 +144,7 @@
   margin: 0 auto;
   list-style: none;
   text-align: center;
-  width: 50%;
+  width: 49%;
   height: 100%;
   margin: auto auto;
   background-position: center;
@@ -147,7 +153,8 @@
   cursor: pointer;
   vertical-align: middle;
   position: relative;
-  overflow: hidden; }
+  overflow: hidden;
+  border: .5px solid black; }
 
 /* Common style */
 .grid figure {
@@ -205,7 +212,7 @@
 
 #background-div-one {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/JessSmokePortfolio.jpg);
-  -webkit-filter: blur(2px);
+  -webkit-filter: blur(0px);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -214,7 +221,7 @@
 
 #background-div-two {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/webDashboardPortfolio.png);
-  -webkit-filter: blur(2px);
+  -webkit-filter: blur(0px);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -223,7 +230,7 @@
 
 #background-div-three {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/webAPIPortfolio.png);
-  -webkit-filter: blur(2px);
+  -webkit-filter: blur(0px);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -232,7 +239,7 @@
 
 #background-div-four {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/wodoPier.jpg);
-  -webkit-filter: blur(2px);
+  -webkit-filter: blur(0px);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -241,7 +248,7 @@
 
 #background-div-five {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/wodoPier.jpg);
-  -webkit-filter: blur(2px);
+  -webkit-filter: blur(0px);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -250,7 +257,7 @@
 
 #background-div-six {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/registrationFormPortfolio.png);
-  -webkit-filter: blur(2px);
+  -webkit-filter: blur(0px);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -259,7 +266,7 @@
 
 #background-div-seven {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/videoPlayerPortfolio.png);
-  -webkit-filter: blur(2px);
+  -webkit-filter: blur(0px);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -268,7 +275,7 @@
 
 #background-div-eight {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/portfolioPortfolio.png);
-  -webkit-filter: blur(2px);
+  -webkit-filter: blur(0px);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -399,31 +406,30 @@ a[href^="tel:"]:before {
   background: white;
   opacity: .6;
   position: fixed;
-  top: 50%;
+  top: 45%;
   right: -150px;
   cursor: pointer; }
 
 #left-arrow {
-  width: 50px;
-  height: 50px;
+  width: 200px;
+  height: 60px;
   background: white;
   opacity: .6;
   position: fixed;
-  top: 50%;
-  left: 0;
-  text-align: right; }
+  top: 45%;
+  left: -150px;
+  text-align: right;
+  cursor: pointer; }
 
 #right-arrow-svg {
   margin-left: 13px; }
 
 #right-project {
   margin-left: 20px;
-  margin-right: 10px;
-  max-width: 100%; }
+  margin-right: 10px; }
 
 #left-project {
-  display: none;
-  margin-left: 10px;
+  margin-left: 60px;
   margin-right: 20px; }
 
 .project-arrow-a {
@@ -454,7 +460,7 @@ a[href^="tel:"]:before {
   position: relative;
   text-align: center;
   background-image: url(/img/iphoneJessSmoke.jpg);
-  background-size: contain;
+  background-size: cover;
   background-attachment: scroll;
   width: 90%;
   height: 75vh;
@@ -555,9 +561,24 @@ a[href^="tel:"]:before {
 #about-heading-h1 {
   border-bottom: 1px solid darkgray; }
 
+.about-heading-h3 {
+  color: rebeccapurple; }
+
 .about-description {
   width: 90%;
   margin: 0 auto; }
+
+.my-pic {
+  width: 200px;
+  height: 200px;
+  background-image: url(/img/torreProfile.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+  float: right; }
+
+[href$=".pdf"]::after {
+  content: " " url("https://cdn3.iconfinder.com/data/icons/document-icons-2/30/647716-pdf-24.png"); }
 
 * {
   box-sizing: border-box; }
@@ -571,7 +592,10 @@ a {
     display: flex; }
 
   .about-description {
-    display: flex; } }
+    display: flex; }
+
+  #header-image-container-project1 {
+    background-size: contain; } }
 .come-in {
   transform: translateX(-100%);
   animation: come-in 1s ease forwards; }

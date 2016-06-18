@@ -8,7 +8,26 @@
     border-bottom: 1px solid darkgray;
 }
 
+.about-heading-h3 {
+    color: rebeccapurple;
+}
+
 .about-description {
     width: 90%;
     margin: 0 auto;
+}
+
+.my-pic {
+    width: 200px;
+    height: 200px;
+    background-image: url(/img/torreProfile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    float:right;
+}
+
+[href$=".pdf"]::after{
+content: " " url("https://cdn3.iconfinder.com/data/icons/document-icons-2/30/647716-pdf-24.png");
+    
 }

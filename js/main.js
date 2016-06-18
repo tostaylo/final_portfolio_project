@@ -51,13 +51,14 @@ $('#right-project').stop().fadeIn('slow');*/
     });
 
 $('#left-arrow').hover(function(){
-    $(this).animate({width: '150px'}, 300);
-      $('#left-project').stop().fadeIn('slow');
+    $(this).stop(true).animate({left: '-10px'}, 300);
+   /* $(this).animate({width: '150px'}, 300);
+      $('#left-project').stop().fadeIn('slow');*/
 } , 
                         
                         function() {
-        $(this).animate({width: '50px'}, 500);
-     $('#left-project').stop().hide('fast');
+        $(this).stop(true).animate({left: '-150px'}, 500);
+    // $('#left-project').stop().hide('fast');
     });
 
 

@@ -5,13 +5,14 @@
     position: relative;
     opacity: 0;
     display: flex;
+    margin: 15px 0;
    
 }
 
 @mixin grid {
-    width: 50%;
+    width: 49%;
     height: 100%;
-    margin: auto auto;
+   margin: auto auto;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -19,12 +20,13 @@
     vertical-align: middle;
     position: relative;
     overflow: hidden;
+    border: .5px solid black;
     }
 
 
 @mixin moving-background-image {
     
-    -webkit-filter:blur(2px);
+    -webkit-filter:blur(0px);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -54,8 +56,11 @@
    }
 
 #sticky-menu {
+    width: 60px;
+    margin: 0 auto;
     color:darkgray;
-    cursor: pointer
+    cursor: pointer;
+    border-bottom: .5px solid darkgray;
 }
 
 #sticky-menu:hover {
@@ -63,7 +68,9 @@
 }
 
 #sticky-ul {
-    width: 100%;
+    width: 70px;
+    margin: 0 auto;
+    border-bottom: .5px solid darkgray;
     list-style: none;
     padding: 0;
     display: none;

@@ -82,8 +82,7 @@
 /* For some effects it will show as a button */
 .grid figure figcaption > a {
 	z-index: 100;
-
-	white-space: nowrap;
+    white-space: nowrap;
 	font-size: 0;
 	opacity: 0;
 }
