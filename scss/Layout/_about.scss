@@ -18,8 +18,13 @@
 }
 
 .about-intro-container {
-    margin: 0 20px 100px 0;
-    
+    margin: 0 50px 100px 0;
+    width: 320px;
+   
+    }
+
+#about-intro-container-1 {
+  
 }
 
 .my-pic {
@@ -55,5 +60,14 @@
 .phone {
     color: rebeccapurple;
     font-size: 10px;
-    line-height: 0;
+    
+}
+
+.inner-a-p {
+    margin: 0;
+}
+
+.about-p {
+    margin: 20px 0 0 0;
+    
 }

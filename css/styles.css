@@ -389,11 +389,6 @@ svg:hover .svg-gray {
 #medium-icon:hover {
   opacity: .5; }
 
-a[href^="tel:"]:before {
-  content: "\260E";
-  display: inline-block;
-  margin-right: 0.5em; }
-
 .arrow {
   display: flex;
   align-items: center;
@@ -509,7 +504,7 @@ a[href^="tel:"]:before {
 
 .project-intro-p {
   color: darkgray;
-  font-size: 10px; }
+  font-size: 12px; }
 
 .project-picture-label-container {
   overflow: hidden; }
@@ -569,7 +564,8 @@ a[href^="tel:"]:before {
   margin: 0 auto; }
 
 .about-intro-container {
-  margin: 0 20px 100px 0; }
+  margin: 0 50px 100px 0;
+  width: 320px; }
 
 .my-pic {
   width: 200px;
@@ -595,8 +591,17 @@ a[href^="tel:"]:before {
 
 .phone {
   color: rebeccapurple;
-  font-size: 10px;
-  line-height: 0; }
+  font-size: 10px; }
+
+.inner-a-p {
+  margin: 0; }
+
+.about-p {
+  margin: 20px 0 0 0; }
+
+.more-intro-container {
+  margin: 0 50px 100px 0;
+  width: 320px; }
 
 * {
   box-sizing: border-box; }
