@@ -121,7 +121,7 @@
 .project-heading-h3{
     margin-top: 0;
     margin-bottom: 100px;
-    width: 320px;
+    display: inline-block;
     color: darkgray;
     font-style: italic;
     font-weight: 100;
@@ -134,6 +134,10 @@
     margin-bottom: 50px;
 }
 
+.project-description-containers {
+    margin-right: 20px;
+}
+
 .project-intro-title {
     color:black;
 }
@@ -142,19 +146,7 @@
     color: darkgray;
     font-size: 12px;
 }
-
-.project-picture-label-container {
-    overflow:hidden;
-}
-
-.project-picture-label {
-    font-size: 70px;
-    color: white;
-    opacity: .4aa;
-}
-
 .bottom-project-container {
-  
     width: 80%;
     height: 500px;
     margin: 0 auto;

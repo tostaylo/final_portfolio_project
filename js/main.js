@@ -86,7 +86,7 @@ $(window).scroll(function() {
     $('.project-overlay').css('opacity', opacityVal);
 });
 
-/************************BlUR PROJECT*************************/
+/**********************HEADING FADE IN**************************/
      /***********************************************************/
 
 
@@ -94,6 +94,6 @@ $(document).ready(function(){
 setTimeout(function(){
 
         $('.letter-appear').fadeIn(3000);
-}, 5000);
+}, 2000);
 
 });

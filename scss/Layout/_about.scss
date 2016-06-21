@@ -45,22 +45,22 @@
     color: rebeccapurple;
 }
 
+.resume:hover {
+  opacity: .6;
+}
 
-
-    
 .pdf-svg {
     width: 50px;
     height: 50px;
 }
 
-  .pdf-opacity:hover {
-    fill:white;
-}
-
 .phone {
     color: rebeccapurple;
     font-size: 10px;
-    
+    }
+
+.inner-a-p:hover {
+    opacity: .6;
 }
 
 .inner-a-p {
@@ -69,5 +69,4 @@
 
 .about-p {
     margin: 20px 0 0 0;
-    
-}
+    }

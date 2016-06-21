@@ -490,7 +490,7 @@ svg:hover .svg-gray {
 .project-heading-h3 {
   margin-top: 0;
   margin-bottom: 100px;
-  width: 320px;
+  display: inline-block;
   color: darkgray;
   font-style: italic;
   font-weight: 100;
@@ -499,20 +499,15 @@ svg:hover .svg-gray {
 .project-description {
   margin-bottom: 50px; }
 
+.project-description-containers {
+  margin-right: 20px; }
+
 .project-intro-title {
   color: black; }
 
 .project-intro-p {
   color: darkgray;
   font-size: 12px; }
-
-.project-picture-label-container {
-  overflow: hidden; }
-
-.project-picture-label {
-  font-size: 70px;
-  color: white;
-  opacity: .4aa; }
 
 .bottom-project-container {
   width: 80%;
@@ -582,16 +577,19 @@ svg:hover .svg-gray {
 .resume {
   color: rebeccapurple; }
 
+.resume:hover {
+  opacity: .6; }
+
 .pdf-svg {
   width: 50px;
   height: 50px; }
 
-.pdf-opacity:hover {
-  fill: white; }
-
 .phone {
   color: rebeccapurple;
   font-size: 10px; }
+
+.inner-a-p:hover {
+  opacity: .6; }
 
 .inner-a-p {
   margin: 0; }
