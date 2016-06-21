@@ -18,10 +18,8 @@
 }
 
 .about-intro-container {
-    margin: 0 50px 100px 0;
-    width: 320px;
-   
-    }
+    margin: 0 20px 100px 0;
+   }
 
 #about-intro-container-1 {
   
@@ -47,6 +45,7 @@
 
 .resume:hover {
   opacity: .6;
+    color: black;
 }
 
 .pdf-svg {
@@ -60,7 +59,7 @@
     }
 
 .inner-a-p:hover {
-    opacity: .6;
+  color: black;
 }
 
 .inner-a-p {

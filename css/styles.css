@@ -505,6 +505,9 @@ svg:hover .svg-gray {
 .project-intro-title {
   color: black; }
 
+#project-details-p {
+  width: 200px; }
+
 .project-intro-p {
   color: darkgray;
   font-size: 12px; }
@@ -559,8 +562,7 @@ svg:hover .svg-gray {
   margin: 0 auto; }
 
 .about-intro-container {
-  margin: 0 50px 100px 0;
-  width: 320px; }
+  margin: 0 20px 100px 0; }
 
 .my-pic {
   width: 200px;
@@ -578,7 +580,8 @@ svg:hover .svg-gray {
   color: rebeccapurple; }
 
 .resume:hover {
-  opacity: .6; }
+  opacity: .6;
+  color: black; }
 
 .pdf-svg {
   width: 50px;
@@ -589,7 +592,7 @@ svg:hover .svg-gray {
   font-size: 10px; }
 
 .inner-a-p:hover {
-  opacity: .6; }
+  color: black; }
 
 .inner-a-p {
   margin: 0; }
@@ -598,8 +601,10 @@ svg:hover .svg-gray {
   margin: 20px 0 0 0; }
 
 .more-intro-container {
-  margin: 0 50px 100px 0;
-  width: 320px; }
+  margin: 0 20px 100px 0; }
+
+#where-p {
+  width: 180px; }
 
 * {
   box-sizing: border-box; }
