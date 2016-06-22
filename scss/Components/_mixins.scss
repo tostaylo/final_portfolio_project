@@ -5,13 +5,14 @@
     position: relative;
     opacity: 0;
     display: flex;
+    margin: 15px 0;
    
 }
 
 @mixin grid {
-    width: 50%;
+    width: 49%;
     height: 100%;
-    margin: auto auto;
+   margin: auto auto;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -19,15 +20,27 @@
     vertical-align: middle;
     position: relative;
     overflow: hidden;
+    border: .5px solid black;
     }
 
 
 @mixin moving-background-image {
     
-    -webkit-filter:blur(2px);
+    -webkit-filter:blur(0px);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     width: 120%;
     height: 120%;
+}
+
+@mixin header-image-container {
+  height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    text-align: center;
 }

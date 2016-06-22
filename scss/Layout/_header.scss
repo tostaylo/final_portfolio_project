@@ -1,49 +1,3 @@
-@mixin come-in {
-    width: 100%;
-    height: 50vh;
-    background: white;
-    position: relative;
-    opacity: 0;
-    display: flex;
-    margin: 15px 0;
-   
-}
-
-@mixin grid {
-    width: 49%;
-    height: 100%;
-   margin: auto auto;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    vertical-align: middle;
-    position: relative;
-    overflow: hidden;
-    border: .5px solid black;
-    }
-
-
-@mixin moving-background-image {
-    
-    -webkit-filter:blur(0px);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 120%;
-    height: 120%;
-}
-
-@mixin header-image-container {
-  height: 100vh;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-    text-align: center;
-}
 
 #sticky-header {
     background-color: white;
@@ -128,6 +82,10 @@
    
 }
 
+
+
+
+
 #main-container {
     width: 100%;
     height: auto;
@@ -150,7 +108,7 @@
     width: 400px;
     height: auto;
     position: absolute;
-    bottom: 45%;
+    bottom: 47%;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -159,7 +117,10 @@
 
 .logo-p{
     margin: 0;
-   
+   }
+
+.logo-p:hover {
+    color: rebeccapurple;
 }
 
 
@@ -168,6 +129,7 @@
     font-weight: 100;
     font-size: 18px;
     letter-spacing: 12px;
+    margin: 0;
     
 }
 
@@ -177,6 +139,7 @@
     font-size: 12px;
     letter-spacing: 10px;
     line-height: 14px;
+    margin: 0;
 }
 
 #desktop-nav {

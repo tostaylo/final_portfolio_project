@@ -1,44 +1,15 @@
-
-
+@import "Components/universal";
+@import "Components/variables";
+@import "Components/mixins";
+@import "Components/animations";
+@import "Components/icons";
 @import "Layout/header";
 @import "Layout/containers";
 @import "Layout/footer";
-@import "Components/icons";
 @import "Layout/projects";
 @import "Layout/about";
 @import "Layout/more";
-
-
-
-
-
-* {
-    box-sizing: border-box;
-   
-}
-
-a {
-    text-decoration: none;
-    cursor:pointer;
-}
-
-
-
-
-$breakpoint-tablet: 768px;
-@media (min-width: $breakpoint-tablet) {
-    .project-description{
-        display: flex;
-    }
-    
-    .about-description {
-        display: flex;
-    }
-    
-    #header-image-container-project1{
-        background-size: contain;
-    }
-}
+@import "Components/mediaQueries";
 
 
 
@@ -46,25 +17,15 @@ $breakpoint-tablet: 768px;
 
 
 
-.come-in {
-  transform: translateX(-100%);
-  animation: come-in 1s ease forwards;
-    
-}
 
 
-@keyframes come-in {
-  to { transform: translateX(0); }
-}
 
 
-.come-in-2 {
-  transform: translateX(100%);
-  animation: come-in 1s ease forwards;
-}
 
 
-@keyframes come-in-2 {
-  to { transform: translateX(0); }
-}
+
+
+
+
+
 

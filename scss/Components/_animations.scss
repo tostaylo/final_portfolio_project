@@ -1,0 +1,21 @@
+.come-in {
+  transform: translateX(-100%);
+  animation: come-in 1s ease forwards;
+    
+}
+
+
+@keyframes come-in {
+  to { transform: translateX(0); }
+}
+
+
+.come-in-2 {
+  transform: translateX(100%);
+  animation: come-in 1s ease forwards;
+}
+
+
+@keyframes come-in-2 {
+  to { transform: translateX(0); }
+}

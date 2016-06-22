@@ -1,0 +1,18 @@
+$breakpoint-tablet: 768px;
+@media (min-width: $breakpoint-tablet) {
+    .project-description{
+        display: flex;
+    }
+    
+    .about-description {
+        display: flex;
+    }
+    
+    #header-image-container-project1{
+        background-size: contain;
+    }
+    
+    .description-buffers {
+        display: none;
+    }
+}
