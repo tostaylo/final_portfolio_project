@@ -15,16 +15,17 @@ $(document).scroll(function () {
     /************************SLIDING DIVS and STICKY HEADER*************************/
      /***********************************************************/
     
-    if(y < headerImageHeight) {
-        $('#sticky-header').hide('slow');
-        
-         } else if(y >= headerImageHeight && y < headerImageHeight2){
-             $('#come-in-div-one').css('opacity', '1').addClass('come-in');
+        if(y === 0) {
+            $('#sticky-header').hide('slow');
+        } else if (y < headerImageHeight) {
+            $('#sticky-header').hide('slow');
+        }else if(y >= headerImageHeight && y < headerImageHeight2){
+            $('#come-in-div-one').css('opacity', '1').addClass('come-in');
             $('#sticky-header').show('slow');
-        }  else if (y >= headerImageHeight2 && y < headerImageHeight3) {
+        } else if (y >= headerImageHeight2 && y < headerImageHeight3) {
             $('#come-in-div-two').css('opacity', '1').addClass('come-in-2');
-      } else if (y >= headerImageHeight3 && y < headerImageHeight4) {
-        $('#come-in-div-three').css('opacity', '1').addClass('come-in');
+        } else if (y >= headerImageHeight3 && y < headerImageHeight4) {
+            $('#come-in-div-three').css('opacity', '1').addClass('come-in');
         } else if (y >= headerImageHeight4){
              $('#come-in-div-four').css('opacity', '1').addClass('come-in-2');
         } 
@@ -32,6 +33,8 @@ $(document).scroll(function () {
 
  /************************SHOW HEADER MENU*************************/
      /***********************************************************/
+
+ 
 
 $('#sticky-menu').click(function(){
     $('#sticky-ul').toggle();
@@ -41,23 +44,16 @@ $('#sticky-menu').click(function(){
      /***********************************************************/
 $('#right-arrow').hover(function(){
     $(this).stop(true).animate({right: '-10px'}, 300);
-
-} , 
-                        
-                        function() {
+}, 
+    function() {
          $(this).stop(true).animate({right: '-150px'}, 500);
-   
-    });
-
+});
 $('#left-arrow').hover(function(){
     $(this).stop(true).animate({left: '-10px'}, 300);
- 
-} , 
-                        
-                        function() {
+ }, 
+    function() {
         $(this).stop(true).animate({left: '-150px'}, 500);
-    
-    });
+});
 
 
 
@@ -70,8 +66,6 @@ $(window).scroll(function() {
         //Bottom Reached
         $('#bottom-scroller').slideDown('slow'); 
     } 
-        
-    
 });
 
 
@@ -95,5 +89,4 @@ setTimeout(function(){
 
         $('.letter-appear').fadeIn(3000);
 }, 2000);
-
 });
