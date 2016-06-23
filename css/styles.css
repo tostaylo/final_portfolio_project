@@ -642,6 +642,39 @@ figure.effect-project:hover p {
   background-size: cover;
   background-position: top; }
 
+#work-image-container {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  z-index: 100; }
+
+.work-container-row {
+  width: 100%;
+  position: relative; }
+
+.work {
+  width: 320px;
+  height: 320px;
+  margin: 0 auto 20px auto;
+  background-image: url(/img/JessSmokePortfolio.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer; }
+
+#marinero-work-container {
+  background-image: url(/img/JessSmokePortfolio.jpg); }
+
+.visited {
+  color: rebeccapurple; }
+
+.work {
+  background-size: 110%; }
+
+.work:hover {
+  background-size: 99%;
+  transition: all .9s ease-in-out; }
+
 @media (min-width: 768px) {
   .project-description {
     display: flex; }
@@ -653,6 +686,12 @@ figure.effect-project:hover p {
     background-size: contain; }
 
   .description-buffers {
-    display: none; } }
+    display: none; }
+
+  .work-container-row {
+    display: flex; }
+
+  .work {
+    margin: 0; } }
 
 /*# sourceMappingURL=styles.css.map */
