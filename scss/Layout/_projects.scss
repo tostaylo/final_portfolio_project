@@ -17,6 +17,10 @@
     cursor: pointer;
     }
 
+#right-arrow:hover {
+    opacity: 1;
+}
+
 #left-arrow {
     width: 200px;
     height: 60px;
@@ -28,6 +32,10 @@
     text-align: right;
     cursor: pointer
     }
+
+#left-arrow:hover {
+    opacity: 1;
+}
 
 
 #right-arrow-svg{

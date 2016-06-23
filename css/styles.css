@@ -436,6 +436,9 @@ figure.effect-project:hover p {
   right: -150px;
   cursor: pointer; }
 
+#right-arrow:hover {
+  opacity: 1; }
+
 #left-arrow {
   width: 200px;
   height: 60px;
@@ -446,6 +449,9 @@ figure.effect-project:hover p {
   left: -150px;
   text-align: right;
   cursor: pointer; }
+
+#left-arrow:hover {
+  opacity: 1; }
 
 #right-arrow-svg {
   margin-left: 13px; }
@@ -651,30 +657,52 @@ figure.effect-project:hover p {
 
 .work-container-row {
   width: 100%;
-  position: relative; }
+  position: relative;
+  overflow: hidden;
+  margin: 20px 0; }
 
 .work {
-  width: 320px;
-  height: 320px;
-  margin: 0 auto 20px auto;
+  width: 300px;
+  height: 300px;
+  margin: 10px auto;
   background-image: url(/img/JessSmokePortfolio.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   cursor: pointer; }
 
-#marinero-work-container {
-  background-image: url(/img/JessSmokePortfolio.jpg); }
+.work-label-container {
+  width: 300px;
+  height: auto;
+  margin: 10px auto; }
 
+.work-label-h2 {
+  margin: 0;
+  color: black; }
+
+.work-label-h5 {
+  margin: 0;
+  color: rebeccapurple; }
+
+.work-label-buffer {
+  height: 1px;
+  width: 50px;
+  border: .5px solid darkgray; }
+
+/*#marinero-work-container{
+     background-image: url(/img/JessSmokePortfolio.jpg);
+   
+}*/
 .visited {
   color: rebeccapurple; }
 
-.work {
-  background-size: 110%; }
-
 .work:hover {
-  background-size: 99%;
-  transition: all .9s ease-in-out; }
+  -webkit-animation: zoomin 2s; }
 
+@-webkit-keyframes zoomin {
+  0% {
+    -webkit-transform: scale(1); }
+  100% {
+    -webkit-transform: scale(1.05); } }
 @media (min-width: 768px) {
   .project-description {
     display: flex; }
@@ -692,6 +720,6 @@ figure.effect-project:hover p {
     display: flex; }
 
   .work {
-    margin: 0; } }
+    margin: 0 10px 0 10px; } }
 
 /*# sourceMappingURL=styles.css.map */
