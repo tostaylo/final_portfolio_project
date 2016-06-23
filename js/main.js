@@ -90,8 +90,24 @@ setTimeout(function(){
 
         $('.letter-appear').fadeIn(3000);
 }, 2000);
+    
+     $(function() {
+        // this will get the full URL at the address bar
+        var url = window.location.href;
+
+        // passes on every "a" tag
+        $(" a").each(function() {
+            // checks if its the same on the address bar
+            if (url === (this.href)) {
+                $(this).closest("a").addClass("active");
+            }
+        });
+    });   
+    
+    
 });
 
 
 
 
+ 
