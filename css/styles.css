@@ -643,6 +643,9 @@ figure.effect-project:hover p {
 #where-p {
   width: 180px; }
 
+#right-here-p {
+  width: 100px; }
+
 #more-pic {
   background-image: url(/img/TaylorFitnessCoaching.jpg);
   background-size: cover;
@@ -685,8 +688,8 @@ figure.effect-project:hover p {
 
 .work-label-buffer {
   height: 1px;
-  width: 50px;
-  border: .5px solid darkgray; }
+  width: 20px;
+  border: 0.5px solid #E5E5E5; }
 
 /*#marinero-work-container{
      background-image: url(/img/JessSmokePortfolio.jpg);
