@@ -83,16 +83,11 @@
     text-align: center;
 }
 
-#header-image-container-project1 {
+#header-image-container-marinero {
     @include header-image-container;
+     @include project-container;
     background-image: url(/img/iphoneJessSmoke.jpg);
-    background-size: cover;
-    background-attachment: scroll;
-    width: 90%;
-    height: 75vh;
-    margin: 0 auto;
-    position: relative;
-    z-index: 100;
+    
    }
 
 

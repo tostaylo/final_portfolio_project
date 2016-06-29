@@ -13,7 +13,14 @@ var autoprefixer = require('gulp-autoprefixer');
 
 
 
-
+gulp.task('compileSass', function(){
+   return gulp.src('scss/styles.scss')
+    .pipe(maps.init())
+    .pipe(sass())
+    .pipe(maps.write('./'))
+     .pipe(gulp.dest("css"));
+    
+});
 
 gulp.task("autoprefixer", function() {
     return gulp.src(['css/styles.css'])
@@ -37,27 +44,21 @@ gulp.task("minifyScripts", function() {
     .pipe(gulp.dest("js"));
 });
 
-gulp.task('minifyStyles', ['concatStyles'], function() {
+gulp.task('minifyStyles',['concatStyles'], function() {
     return gulp.src("css/styles.css")
     .pipe(minifyCSS())
     .pipe(rename('styles.min.css'))
     .pipe(gulp.dest("css"));
     });
 
-gulp.task('compileSass', function(){
-   return gulp.src('scss/styles.scss')
-    .pipe(maps.init())
-    .pipe(sass())
-    .pipe(maps.write('./'))
-     .pipe(gulp.dest("css"));
-    
-});
 
-gulp.task("build", ['minifyScripts', 'minifyStyles','compileSass', 'autoprefixer']);
+
+gulp.task("build", ['compileSass','minifyScripts', 'minifyStyles', 'autoprefixer']);
 
 
 gulp.task("default", ["build"], function() {
+    gulp.watch('scss/**/*.scss', ['compileSass']);
     gulp.watch('js/*.js', ["minifyScripts"]);
     gulp.watch('css/*.css', ["minifyStyles"]);
-    //gulp.watch('scss/styles.scss', ['sass']);
+   
 });

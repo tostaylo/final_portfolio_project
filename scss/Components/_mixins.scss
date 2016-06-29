@@ -44,3 +44,13 @@
     position: relative;
     text-align: center;
 }
+
+@mixin project-container {
+    background-size: contain;
+    background-attachment: scroll;
+    width: 90%;
+    height: 75vh;
+    margin: 0 auto;
+    position: relative;
+    z-index: 100;
+}

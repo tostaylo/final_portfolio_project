@@ -18,9 +18,10 @@
     width: 300px;
     height: 300px;
     margin: 10px auto;
-    background-image: url(/img/wodoUmbrella.jpeg);
+    background: black;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     cursor: pointer;
     }
 
@@ -52,6 +53,25 @@
 #marinero-work-container{
      background-image: url(/img/JessSmokePortfolio.jpg);
 }
+
+#contact-work-container{
+     background-image: url(/img/registrationFormPortfolio.png);
+   }
+
+#web-dashboard-work-container{
+     background-image: url(/img/webDashboardPortfolio.png);
+     background-position: left top;
+   }
+
+#marinero-work-container{
+     background-image: url(/img/JessSmokePortfolio.jpg);
+}
+
+#contact-work-container{
+     background-image: url(/img/registrationFormPortfolio.png);
+   }
+
+
    
 
 
