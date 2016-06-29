@@ -12,6 +12,7 @@ a {
 @keyframes come-in {
   to {
     transform: translateX(0); } }
+
 .come-in-2 {
   transform: translateX(100%);
   animation: come-in 1s ease forwards; }
@@ -19,6 +20,7 @@ a {
 @keyframes come-in-2 {
   to {
     transform: translateX(0); } }
+
 .svg-div {
   width: 50px;
   height: 50px; }
@@ -691,10 +693,9 @@ figure.effect-project:hover p {
   width: 20px;
   border: 0.5px solid #E5E5E5; }
 
-/*#marinero-work-container{
-     background-image: url(/img/JessSmokePortfolio.jpg);
-   
-}*/
+#marinero-work-container {
+  background-image: url(/img/JessSmokePortfolio.jpg); }
+
 .work:hover {
   -webkit-animation: zoomin 2s;
   -webkit-animation-fill-mode: forwards; }
@@ -704,25 +705,21 @@ figure.effect-project:hover p {
     -webkit-transform: scale(1); }
   100% {
     -webkit-transform: scale(1.05); } }
+
 .active {
   color: rebeccapurple; }
 
 @media (min-width: 768px) {
   .project-description {
     display: flex; }
-
   .about-description {
     display: flex; }
-
   #header-image-container-project1 {
     background-size: contain; }
-
   .description-buffers {
     display: none; }
-
   .work-container-row {
     display: flex; }
-
   .work {
     margin: 0 10px 0 10px; } }
 
