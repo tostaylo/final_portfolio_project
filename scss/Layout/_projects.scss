@@ -212,6 +212,7 @@
 
 #bottom-project-container-left-lightbox{
     background-image: url(/img/lightbox_img/lightbox_lightbox.png);
+    background-size: cover;
 }
 
 #bottom-project-container-right-top-lightbox {
@@ -245,20 +246,45 @@
     @include header-image-container;
      @include project-container;
     background-image: url(/img/web_api_img/web_api_top.png);
+     background-position: top;
     
     }
 
 #bottom-project-container-left-web-api{
-    background-image: url(/img/web_api_img/web_api_mobile_full.png);
+    background-image: url(/img/web_api_img/web_api_lightbox.png);
 }
 
 #bottom-project-container-right-top-web-api {
-    background-image: url(/img/web_api_img/web_api_lightbox.png);
-    background-position: center;
+    background-image: url(/img/web_api_img/web_api_top.png);
+    background-size:cover;
+
 }
 #bottom-project-container-right-bottom-web-api {
-    background-image: url(/img/web_api_img/web_api_mobile.png);
-     background-position: bottom;
+     background-image: url(/img/web_api_img/web_api_mobile.png);
+     background-position: top;
+     background-size:contain;
+}
+
+#header-image-container-video-player {
+     @include header-image-container;
+     @include project-container;
+     background-image: url(/img/video_player_img/video_player_tablet.png);
+     background-position: center;
+    }
+
+#bottom-project-container-left-video-player{
+    background-image: url(/img/video_player_img/video_player_mobile.png);
+    background-position: top;
+}
+
+#bottom-project-container-right-top-video-player {
+    background-image: url(/img/video_player_img/video_player_full.png);
+     background-size: contain;
+    }
+#bottom-project-container-right-bottom-video-player {
+    background-image: url(/img/video_player_img/video_player_text.png);
+    background-size: contain;
+     
 }
 
 
