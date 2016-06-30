@@ -5,14 +5,14 @@
     position: relative;
     opacity: 0;
     display: flex;
-    margin: 15px 0;
+    margin:  0;
    
 }
 
 @mixin grid {
     width: 49%;
     height: 100%;
-   margin: auto auto;
+    margin: auto auto;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -20,8 +20,7 @@
     vertical-align: middle;
     position: relative;
     overflow: hidden;
-    border: .5px solid black;
-    }
+   }
 
 
 @mixin moving-background-image {
@@ -32,6 +31,9 @@
     background-size: cover;
     width: 120%;
     height: 120%;
+    background-color: white;
+    opacity: 1;
+    
 }
 
 @mixin header-image-container {
@@ -46,7 +48,7 @@
 }
 
 @mixin project-container {
-    background-size: contain;
+    background-size: cover;
     background-attachment: scroll;
     width: 90%;
     height: 75vh;

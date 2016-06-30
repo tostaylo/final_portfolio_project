@@ -8,8 +8,13 @@ var minifyCSS = require('gulp-minify-css');
 var sass = require('gulp-sass');
 var maps = require('gulp-sourcemaps');
 var autoprefixer = require('gulp-autoprefixer');
+var del = require('del');
 
 
+
+gulp.task('clean', function() {
+  return del.sync('css/styles.css');
+})
 
 
 
@@ -22,6 +27,12 @@ gulp.task('compileSass', function(){
     
 });
 
+gulp.task("concatStyles", ['compileSass'],function() {
+    return gulp.src(['css/normalize.css','css/styles.css'])
+    .pipe(concat("styles.css"))
+    .pipe(gulp.dest("css"));
+});
+
 gulp.task("autoprefixer", function() {
     return gulp.src(['css/styles.css'])
     .pipe(autoprefixer({
@@ -31,11 +42,6 @@ gulp.task("autoprefixer", function() {
      .pipe(gulp.dest("css"));
 });
 
-gulp.task("concatStyles", function() {
-    return gulp.src(['css/normalize.css', 'css/main.css', 'css/styles.css'])
-    .pipe(concat("styles.css"))
-    .pipe(gulp.dest("css"));
-});
 
 gulp.task("minifyScripts", function() {
     return gulp.src("js/main.js")
@@ -44,7 +50,7 @@ gulp.task("minifyScripts", function() {
     .pipe(gulp.dest("js"));
 });
 
-gulp.task('minifyStyles',['concatStyles'], function() {
+gulp.task('minifyStyles', function() {
     return gulp.src("css/styles.css")
     .pipe(minifyCSS())
     .pipe(rename('styles.min.css'))
@@ -53,12 +59,12 @@ gulp.task('minifyStyles',['concatStyles'], function() {
 
 
 
-gulp.task("build", ['compileSass','minifyScripts', 'minifyStyles', 'autoprefixer']);
+gulp.task("build", ['clean','concatStyles',  'autoprefixer']);
 
 
 gulp.task("default", ["build"], function() {
     gulp.watch('scss/**/*.scss', ['compileSass']);
     gulp.watch('js/*.js', ["minifyScripts"]);
     gulp.watch('css/*.css', ["minifyStyles"]);
-   
-});
+     gulp.watch('css/*.css', ["concatStyles"]);
+    });

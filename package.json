@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/tostaylo/final_portfolio_project#readme",
   "devDependencies": {
+    "del": "^2.2.1",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-concat": "^2.6.0",

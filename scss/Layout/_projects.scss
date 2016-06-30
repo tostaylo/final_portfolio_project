@@ -86,7 +86,14 @@
 #header-image-container-marinero {
     @include header-image-container;
      @include project-container;
-    background-image: url(/img/iphoneJessSmoke.jpg);
+    background-image: url(/img/marinero_img/iphoneJessSmoke.jpg);
+    
+   }
+
+#header-image-container-contact {
+    @include header-image-container;
+     @include project-container;
+    background-image: url(/img/registrationFormPortfolio.png);
     
    }
 
@@ -166,7 +173,7 @@
 .bottom-project-container-left {
     height:100%;
     width:50%;
-    background-image: url(/img/jessRed.png);
+    background-image: url(/img/marinero_img/jessRed.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;    
@@ -175,7 +182,7 @@
 .bottom-project-container-right-top {
     height:45%;
     width:100%;
-     background-image: url(/img/jessContact.png);
+     background-image: url(/img/marinero_img/jessContact.png);
     background-position: top center;
     background-repeat: no-repeat;
     background-size:cover;    
@@ -185,7 +192,7 @@
 .bottom-project-container-right-bottom {
     height:55%;
     width:100%;
-     background-image: url(/img/jessBio.png);
+     background-image: url(/img/marinero_img/jessBio.png);
     background-position: top center;
     background-repeat: no-repeat;
     background-size:cover;    
