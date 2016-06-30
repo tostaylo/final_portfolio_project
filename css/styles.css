@@ -635,11 +635,10 @@ svg:hover .svg-gray {
   margin: 0 auto;
   list-style: none;
   text-align: center;
-  width: 49%;
+  width: 50%;
   height: 100%;
   margin: auto auto;
   background-position: center;
-  background-size: cover;
   background-repeat: no-repeat;
   cursor: pointer;
   vertical-align: middle;
@@ -687,7 +686,8 @@ svg:hover .svg-gray {
 
 .grid figure h2 {
   font-weight: 300;
-  border-bottom: 1px solid black; }
+  border-bottom: 1px solid black;
+  display: inline-block; }
 
 .grid figure h2 span {
   font-weight: 800; }
@@ -746,7 +746,10 @@ svg:hover .svg-gray {
   -webkit-filter: blur(0px);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 300px 250px;
+  background-position: contain;
+  border-radius: 50%;
+  margin-left: 100px;
   width: 120%;
   height: 120%;
   background-color: white;
@@ -793,7 +796,7 @@ figure.effect-project p {
 
 figure.effect-project:hover .background-div {
   background-color: #E5E5E5;
-  opacity: .1; }
+  opacity: .4; }
 
 figure.effect-project:hover p {
   opacity: .9; }
@@ -891,42 +894,6 @@ figure.effect-project:hover p {
   margin-left: 10px;
   text-align: center; }
 
-#header-image-container-marinero {
-  height: 100vh;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed;
-  position: relative;
-  text-align: center;
-  background-size: cover;
-  background-attachment: scroll;
-  width: 90%;
-  height: 75vh;
-  margin: 0 auto;
-  position: relative;
-  z-index: 100;
-  background-image: url(/img/marinero_img/iphoneJessSmoke.jpg); }
-
-#header-image-container-contact {
-  height: 100vh;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed;
-  position: relative;
-  text-align: center;
-  background-size: cover;
-  background-attachment: scroll;
-  width: 90%;
-  height: 75vh;
-  margin: 0 auto;
-  position: relative;
-  z-index: 100;
-  background-image: url(/img/registrationFormPortfolio.png); }
-
 .project-overlay {
   position: absolute;
   width: 100%;
@@ -989,7 +956,6 @@ figure.effect-project:hover p {
 .bottom-project-container-left {
   height: 100%;
   width: 50%;
-  background-image: url(/img/marinero_img/jessRed.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -997,7 +963,6 @@ figure.effect-project:hover p {
 .bottom-project-container-right-top {
   height: 45%;
   width: 100%;
-  background-image: url(/img/marinero_img/jessContact.png);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -1005,10 +970,125 @@ figure.effect-project:hover p {
 .bottom-project-container-right-bottom {
   height: 55%;
   width: 100%;
-  background-image: url(/img/marinero_img/jessBio.png);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover; }
+
+.project-image-container {
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  text-align: center;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 90%;
+  height: 75vh;
+  margin: 0 auto;
+  position: relative;
+  z-index: 100; }
+
+/********************** PROJECT SPECIFIC BACKGROUND IMAGES*******************/
+#header-image-container-marinero {
+  background-image: url(/img/marinero_img/iphoneJessSmoke.jpg); }
+
+#bottom-project-container-left-marinero {
+  background-image: url(/img/marinero_img/jessRed.png); }
+
+#bottom-project-container-right-top-marinero {
+  background-image: url(/img/marinero_img/jessContact.png); }
+
+#bottom-project-container-right-bottom-marinero {
+  background-image: url(/img/marinero_img/jessBio.png); }
+
+#header-image-container-lightbox {
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  text-align: center;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 90%;
+  height: 75vh;
+  margin: 0 auto;
+  position: relative;
+  z-index: 100;
+  background-image: url(/img/lightbox_img/lightbox_desktop.png); }
+
+#bottom-project-container-left-lightbox {
+  background-image: url(/img/lightbox_img/lightbox_lightbox.png); }
+
+#bottom-project-container-right-top-lightbox {
+  background-image: url(/img/lightbox_img/lightbox_mobile_search.png); }
+
+#bottom-project-container-right-bottom-lightbox {
+  background-image: url(/img/lightbox_img/lightbox_desktop_search.png); }
+
+#header-image-container-web-dashboard {
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  text-align: center;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 90%;
+  height: 75vh;
+  margin: 0 auto;
+  position: relative;
+  z-index: 100;
+  background-image: url(/img/web_dashboard_img/web_dashboard_full.png);
+  background-size: contain; }
+
+#bottom-project-container-left-web-dashboard {
+  background-image: url(/img/web_dashboard_img/web-dashboard-bottom.png); }
+
+#bottom-project-container-right-top-web-dashboard {
+  background-image: url(/img/web_dashboard_img/web_dashboard_full.png);
+  background-position: center; }
+
+#bottom-project-container-right-bottom-web-dashboard {
+  background-image: url(/img/web_dashboard_img/web-dashboard-mobile.png);
+  background-position: bottom; }
+
+#header-image-container-web-api {
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  text-align: center;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 90%;
+  height: 75vh;
+  margin: 0 auto;
+  position: relative;
+  z-index: 100;
+  background-image: url(/img/web_api_img/web_api_top.png); }
+
+#bottom-project-container-left-web-api {
+  background-image: url(/img/web_api_img/web_api_mobile_full.png); }
+
+#bottom-project-container-right-top-web-api {
+  background-image: url(/img/web_api_img/web_api_lightbox.png);
+  background-position: center; }
+
+#bottom-project-container-right-bottom-web-api {
+  background-image: url(/img/web_api_img/web_api_mobile.png);
+  background-position: bottom; }
 
 #about-header-image-container {
   height: 300px;
@@ -1124,8 +1204,11 @@ figure.effect-project:hover p {
 #marinero-work-container {
   background-image: url(/img/marinero_img/JessSmokePortfolio.jpg); }
 
+#lightbox-work-container {
+  background-image: url(/img/lightbox_img/lightbox_desktop_search.png); }
+
 #web-dashboard-work-container {
-  background-position: left top; }
+  background-image: url(/img/web_dashboard_img/web_dashboard_full.png); }
 
 .work:hover {
   -webkit-animation: zoomin 2s;

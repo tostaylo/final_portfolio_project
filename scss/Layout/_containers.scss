@@ -94,7 +94,9 @@
 
 .grid figure h2 {
 	font-weight: 300;
+    
     border-bottom: 1px solid black;
+    display: inline-block;
 }
 
 .grid figure h2 span {
@@ -212,7 +214,7 @@ figure.effect-project p {
 figure.effect-project:hover .background-div,
  {
     background-color:$gray-color;
-	opacity: .1;
+	opacity: .4;
 }
 
 figure.effect-project:hover p {

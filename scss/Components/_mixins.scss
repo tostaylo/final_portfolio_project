@@ -10,11 +10,10 @@
 }
 
 @mixin grid {
-    width: 49%;
+    width: 50%;
     height: 100%;
     margin: auto auto;
     background-position: center;
-    background-size: cover;
     background-repeat: no-repeat;
     cursor: pointer;
     vertical-align: middle;
@@ -28,10 +27,14 @@
     -webkit-filter:blur(0px);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: 300px 250px;
+    background-position: contain;
+    border-radius: 50%;
+    margin-left: 100px;
     width: 120%;
     height: 120%;
     background-color: white;
+    //background-image: url(/img/marinero_img/jessBio.png);
     opacity: 1;
     
 }

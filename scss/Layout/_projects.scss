@@ -42,11 +42,9 @@
     margin-left: 13px;
 }
 #right-project {
-  
     margin-left: 20px;
     margin-right: 10px;
-    
-}
+    }
 
 #left-project {
     margin-left: 60px;
@@ -82,20 +80,6 @@
     margin-left: 10px;
     text-align: center;
 }
-
-#header-image-container-marinero {
-    @include header-image-container;
-     @include project-container;
-    background-image: url(/img/marinero_img/iphoneJessSmoke.jpg);
-    
-   }
-
-#header-image-container-contact {
-    @include header-image-container;
-     @include project-container;
-    background-image: url(/img/registrationFormPortfolio.png);
-    
-   }
 
 
 
@@ -170,10 +154,10 @@
     width: 50%;
     height:100%;
 }
+
 .bottom-project-container-left {
     height:100%;
     width:50%;
-    background-image: url(/img/marinero_img/jessRed.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;    
@@ -182,7 +166,6 @@
 .bottom-project-container-right-top {
     height:45%;
     width:100%;
-     background-image: url(/img/marinero_img/jessContact.png);
     background-position: top center;
     background-repeat: no-repeat;
     background-size:cover;    
@@ -192,11 +175,90 @@
 .bottom-project-container-right-bottom {
     height:55%;
     width:100%;
-     background-image: url(/img/marinero_img/jessBio.png);
     background-position: top center;
     background-repeat: no-repeat;
     background-size:cover;    
 }
+.project-image-container {
+    @include header-image-container;
+     @include project-container;
+    }
 
+
+
+/********************** PROJECT SPECIFIC BACKGROUND IMAGES*******************/
+
+#header-image-container-marinero {
+    background-image: url(/img/marinero_img/iphoneJessSmoke.jpg);
+    }
+
+#bottom-project-container-left-marinero{
+    background-image: url(/img/marinero_img/jessRed.png);
+}
+
+#bottom-project-container-right-top-marinero {
+    background-image: url(/img/marinero_img/jessContact.png);
+}
+#bottom-project-container-right-bottom-marinero {
+    background-image: url(/img/marinero_img/jessBio.png);
+}
+
+#header-image-container-lightbox {
+    @include header-image-container;
+     @include project-container;
+    background-image: url(/img/lightbox_img/lightbox_desktop.png);
+    
+    }
+
+#bottom-project-container-left-lightbox{
+    background-image: url(/img/lightbox_img/lightbox_lightbox.png);
+}
+
+#bottom-project-container-right-top-lightbox {
+    background-image: url(/img/lightbox_img/lightbox_mobile_search.png);
+}
+#bottom-project-container-right-bottom-lightbox {
+    background-image: url(/img/lightbox_img/lightbox_desktop_search.png);
+}
+
+#header-image-container-web-dashboard {
+    @include header-image-container;
+     @include project-container;
+    background-image: url(/img/web_dashboard_img/web_dashboard_full.png);
+    background-size: contain;
+    }
+
+#bottom-project-container-left-web-dashboard{
+    background-image: url(/img/web_dashboard_img/web-dashboard-bottom.png);
+}
+
+#bottom-project-container-right-top-web-dashboard {
+    background-image: url(/img/web_dashboard_img/web_dashboard_full.png);
+    background-position: center;
+}
+#bottom-project-container-right-bottom-web-dashboard {
+    background-image: url(/img/web_dashboard_img/web-dashboard-mobile.png);
+     background-position: bottom;
+}
+
+#header-image-container-web-api {
+    @include header-image-container;
+     @include project-container;
+    background-image: url(/img/web_api_img/web_api_top.png);
+    
+    }
+
+#bottom-project-container-left-web-api{
+    background-image: url(/img/web_api_img/web_api_mobile_full.png);
+}
+
+#bottom-project-container-right-top-web-api {
+    background-image: url(/img/web_api_img/web_api_lightbox.png);
+    background-position: center;
+}
+#bottom-project-container-right-bottom-web-api {
+    background-image: url(/img/web_api_img/web_api_mobile.png);
+     background-position: bottom;
+}
 
 
