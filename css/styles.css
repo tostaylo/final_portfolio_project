@@ -933,9 +933,6 @@ figure.effect-project:hover p {
 .project-description {
   margin-bottom: 50px; }
 
-.project-description-containers {
-  margin-right: 20px; }
-
 .project-intro-title {
   color: black; }
 
@@ -1142,9 +1139,6 @@ figure.effect-project:hover p {
   width: 80%;
   margin: 0 auto; }
 
-.about-intro-container {
-  margin: 0 20px 100px 0; }
-
 .my-pic {
   width: 200px;
   height: 200px;
@@ -1180,9 +1174,6 @@ figure.effect-project:hover p {
 
 .about-p {
   margin: 20px 0 0 0; }
-
-.more-intro-container {
-  margin: 0 20px 100px 0; }
 
 #where-p {
   width: 180px; }
@@ -1270,16 +1261,32 @@ figure.effect-project:hover p {
 
 @media (min-width: 768px) {
   .project-description {
-    display: flex; }
+    display: flex;
+    justify-content: space-between; }
   .about-description {
-    display: flex; }
+    display: flex;
+    justify-content: space-between; }
+  .about-intro-container {
+    width: 195px; }
+  .more-intro-container {
+    width: 195px; }
+  .project-description-containers {
+    width: 195px; }
   #header-image-container-marinero {
     background-size: contain; }
   .description-buffers {
     display: none; }
   .work-container-row {
-    display: flex; }
-  .work {
-    margin: 0 10px 0 10px; } }
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; } }
+
+@media (min-width: 1024px) {
+  .about-intro-container {
+    width: 275px; }
+  .more-intro-container {
+    width: 275px; }
+  .project-description-containers {
+    width: 275px; } }
 
 /*# sourceMappingURL=styles.css.map */

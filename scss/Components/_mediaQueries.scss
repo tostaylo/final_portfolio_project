@@ -1,11 +1,30 @@
 $breakpoint-tablet: 768px;
+$breakpoint-desktop: 1024px;
 @media (min-width: $breakpoint-tablet) {
     .project-description{
         display: flex;
+        justify-content: space-between;
+        
     }
     
     .about-description {
         display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    
+    
+    .about-intro-container {
+        width: 195px;
+    }
+    
+    .more-intro-container {
+        width: 195px;
+    }
+    
+    .project-description-containers {
+        width: 195px;
     }
     
     #header-image-container-marinero{
@@ -17,8 +36,26 @@ $breakpoint-tablet: 768px;
     }
     .work-container-row{
         display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
-    .work {
-        margin: 0 10px 0 10px;
+   
+}
+
+
+@media (min-width: $breakpoint-desktop) {
+    
+
+    
+    .about-intro-container {
+        width:275px;
+    }
+    
+    .more-intro-container {
+        width: 275px;
+    }
+    
+    .project-description-containers {
+        width: 275px;
     }
 }
