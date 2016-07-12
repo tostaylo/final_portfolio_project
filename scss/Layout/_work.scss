@@ -25,6 +25,7 @@
     background-size: cover;
     background-position: center;
     cursor: pointer;
+    margin-top:60px;
     }
 
 .work-label-container {
@@ -74,6 +75,12 @@
    }
 #taylor-fitness-work-container{
     background-image:url(/img/taylor_fitness_coaching_img/taylor_fitness_coaching_mobile.png);
+    background-position: top;
+    background-size: 105%;
+   }
+
+#contact-work-container{
+    background-image:url(/img/contact_form_img/contact-page_full_desktop.png);
     background-position: top;
    }
 

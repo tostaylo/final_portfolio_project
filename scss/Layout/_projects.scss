@@ -149,10 +149,11 @@
     height: 500px;
     margin: 0 auto;
     display: flex;
-    }
+   }
 .bottom-project-container-right{
     width: 50%;
     height:100%;
+    
 }
 
 .bottom-project-container-left {
@@ -160,7 +161,9 @@
     width:50%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size:cover;    
+    background-size:cover;
+     border: 1px solid $gray-color;
+    
     }
 
 .bottom-project-container-right-top {
@@ -168,7 +171,8 @@
     width:100%;
     background-position: top center;
     background-repeat: no-repeat;
-    background-size:cover;    
+    background-size:cover;
+     border: 1px solid $gray-color;
     
 }
 
@@ -177,7 +181,8 @@
     width:100%;
     background-position: top center;
     background-repeat: no-repeat;
-    background-size:cover;    
+    background-size:cover;  
+     border: 1px solid $gray-color;
 }
 .project-image-container {
     @include header-image-container;
@@ -307,6 +312,32 @@
 #bottom-project-container-right-bottom-taylor-fitness {
     background-image: url(/img/taylor_fitness_coaching_img/taylor_fitness_coaching_mobile.png);
     background-size: contain;
+     
+}
+
+#header-image-container-contact-form {
+     @include header-image-container;
+     @include project-container;
+     background-image: url(/img/contact_form_img/contact-page_full_desktop.png);
+     background-size: cover;
+    }
+
+#bottom-project-container-left-contact-form{
+    background-image: url(/img/contact_form_img/contact_form_required_desktop.png);
+    background-size: cover;
+    background-position: top;
+  
+}
+
+#bottom-project-container-right-top-contact-form {
+    background-image: url(/img/contact_form_img/contact_form_bottom_mobile.png);
+     background-size: cover;
+    background-position: center;
+   
+    }
+#bottom-project-container-right-bottom-contact-form {
+    background-image: url(/img/contact_form_img/contact_form_middle_mobile.png);
+    background-size: cover;
      
 }
 
