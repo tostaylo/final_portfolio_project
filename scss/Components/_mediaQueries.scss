@@ -10,6 +10,7 @@ $breakpoint-desktop: 1024px;
     .about-description {
         display: flex;
         justify-content: space-between;
+        margin-bottom: 80px;
         
     }
     
@@ -30,7 +31,9 @@ $breakpoint-desktop: 1024px;
     #header-image-container-marinero{
         background-size: contain;
     }
-    
+    #header-image-container-taylor-fitness {
+         background-size: contain;
+    }
     .description-buffers {
         display: none;
     }

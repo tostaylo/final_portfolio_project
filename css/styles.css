@@ -1124,6 +1124,38 @@ figure.effect-project:hover p {
   background-image: url(/img/video_player_img/video_player_text.png);
   background-size: contain; }
 
+#header-image-container-taylor-fitness {
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  text-align: center;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 90%;
+  height: 75vh;
+  margin: 0 auto;
+  position: relative;
+  z-index: 100;
+  background-image: url(/img/taylor_fitness_coaching_img/taylor_fitness_coaching_desktop.png);
+  background-size: cover; }
+
+#bottom-project-container-left-taylor-fitness {
+  background-image: url(/img/taylor_fitness_coaching_img/taylor_fitness_coaching_contact_desktop.png);
+  background-size: cover;
+  background-position: top; }
+
+#bottom-project-container-right-top-taylor-fitness {
+  background-image: url(/img/taylor_fitness_coaching_img/taylor_fitness_coaching_tshirt_desktop.png);
+  background-size: contain; }
+
+#bottom-project-container-right-bottom-taylor-fitness {
+  background-image: url(/img/taylor_fitness_coaching_img/taylor_fitness_coaching_mobile.png);
+  background-size: contain; }
+
 #about-header-image-container {
   height: 300px;
   width: 80%;
@@ -1246,6 +1278,10 @@ figure.effect-project:hover p {
   background-image: url(/img/web_api_img/web_api_full.png);
   background-position: top; }
 
+#taylor-fitness-work-container {
+  background-image: url(/img/taylor_fitness_coaching_img/taylor_fitness_coaching_mobile.png);
+  background-position: top; }
+
 .work:hover {
   -webkit-animation: zoomin 2s;
   -webkit-animation-fill-mode: forwards; }
@@ -1265,7 +1301,8 @@ figure.effect-project:hover p {
     justify-content: space-between; }
   .about-description {
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    margin-bottom: 80px; }
   .about-intro-container {
     width: 195px; }
   .more-intro-container {
@@ -1273,6 +1310,8 @@ figure.effect-project:hover p {
   .project-description-containers {
     width: 195px; }
   #header-image-container-marinero {
+    background-size: contain; }
+  #header-image-container-taylor-fitness {
     background-size: contain; }
   .description-buffers {
     display: none; }
