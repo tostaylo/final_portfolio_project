@@ -566,7 +566,8 @@ svg:hover .svg-gray {
   position: relative;
   text-align: center;
   background-image: url(/img/wodoStars.jpg);
-  background-attachment: scroll; }
+  background-attachment: scroll;
+  height: 90vh; }
 
 #main-logo {
   background-color: transparent;
@@ -632,6 +633,11 @@ svg:hover .svg-gray {
 #buffer {
   width: 100%;
   height: 200px;
+  position: relative; }
+
+#buffer1 {
+  width: 100%;
+  height: 100px;
   position: relative; }
 
 .grid {
@@ -827,6 +833,15 @@ figure.effect-project:hover p {
   bottom: 0;
   display: none; }
 
+#bottom-scroller1 {
+  width: 100%;
+  height: 100px;
+  background: white;
+  text-align: center;
+  color: darkgray;
+  position: absolute;
+  bottom: 0; }
+
 #footer-ul {
   list-style: none;
   padding: 0; }
@@ -1000,13 +1015,13 @@ figure.effect-project:hover p {
   background-image: url(/img/marinero_img/iphoneJessSmoke.jpg); }
 
 #bottom-project-container-left-marinero {
-  background-image: url(/img/marinero_img/jessRed.png); }
+  background-image: url(/img/marinero_img/jessRed.jpg); }
 
 #bottom-project-container-right-top-marinero {
-  background-image: url(/img/marinero_img/jessContact.png); }
+  background-image: url(/img/marinero_img/jessContact.jpg); }
 
 #bottom-project-container-right-bottom-marinero {
-  background-image: url(/img/marinero_img/jessBio.png); }
+  background-image: url(/img/marinero_img/jessBio.jpg); }
 
 #header-image-container-lightbox {
   height: 100vh;
@@ -1024,17 +1039,17 @@ figure.effect-project:hover p {
   margin: 0 auto;
   position: relative;
   z-index: 100;
-  background-image: url(/img/lightbox_img/lightbox_desktop.png); }
+  background-image: url(/img/lightbox_img/lightbox_desktop.jpg); }
 
 #bottom-project-container-left-lightbox {
-  background-image: url(/img/lightbox_img/lightbox_lightbox.png);
+  background-image: url(/img/lightbox_img/lightbox_lightbox.jpg);
   background-size: cover; }
 
 #bottom-project-container-right-top-lightbox {
-  background-image: url(/img/lightbox_img/lightbox_mobile_search.png); }
+  background-image: url(/img/lightbox_img/lightbox_mobile_search.jpg); }
 
 #bottom-project-container-right-bottom-lightbox {
-  background-image: url(/img/lightbox_img/lightbox_desktop_search.png); }
+  background-image: url(/img/lightbox_img/lightbox_desktop_search.jpg); }
 
 #header-image-container-web-dashboard {
   height: 100vh;
@@ -1052,18 +1067,18 @@ figure.effect-project:hover p {
   margin: 0 auto;
   position: relative;
   z-index: 100;
-  background-image: url(/img/web_dashboard_img/web_dashboard_full.png);
+  background-image: url(/img/web_dashboard_img/web_dashboard_full.jpg);
   background-size: contain; }
 
 #bottom-project-container-left-web-dashboard {
-  background-image: url(/img/web_dashboard_img/web-dashboard-bottom.png); }
+  background-image: url(/img/web_dashboard_img/web-dashboard-bottom.jpg); }
 
 #bottom-project-container-right-top-web-dashboard {
-  background-image: url(/img/web_dashboard_img/web_dashboard_full.png);
+  background-image: url(/img/web_dashboard_img/web_dashboard_full.jpg);
   background-position: center; }
 
 #bottom-project-container-right-bottom-web-dashboard {
-  background-image: url(/img/web_dashboard_img/web-dashboard-mobile.png);
+  background-image: url(/img/web_dashboard_img/web-dashboard-mobile.jpg);
   background-position: bottom; }
 
 #header-image-container-web-api {
@@ -1082,18 +1097,18 @@ figure.effect-project:hover p {
   margin: 0 auto;
   position: relative;
   z-index: 100;
-  background-image: url(/img/web_api_img/web_api_top.png);
+  background-image: url(/img/web_api_img/web_api_top.jpg);
   background-position: top; }
 
 #bottom-project-container-left-web-api {
-  background-image: url(/img/web_api_img/web_api_lightbox.png); }
+  background-image: url(/img/web_api_img/web_api_lightbox.jpg); }
 
 #bottom-project-container-right-top-web-api {
-  background-image: url(/img/web_api_img/web_api_top.png);
+  background-image: url(/img/web_api_img/web_api_top.jpg);
   background-size: cover; }
 
 #bottom-project-container-right-bottom-web-api {
-  background-image: url(/img/web_api_img/web_api_mobile.png);
+  background-image: url(/img/web_api_img/web_api_mobile.jpg);
   background-position: top;
   background-size: contain; }
 
@@ -1113,19 +1128,19 @@ figure.effect-project:hover p {
   margin: 0 auto;
   position: relative;
   z-index: 100;
-  background-image: url(/img/video_player_img/video_player_tablet.png);
+  background-image: url(/img/video_player_img/video_player_tablet.jpg);
   background-position: center; }
 
 #bottom-project-container-left-video-player {
-  background-image: url(/img/video_player_img/video_player_mobile.png);
+  background-image: url(/img/video_player_img/video_player_mobile.jpg);
   background-position: top; }
 
 #bottom-project-container-right-top-video-player {
-  background-image: url(/img/video_player_img/video_player_full.png);
+  background-image: url(/img/video_player_img/video_player_full.jpg);
   background-size: contain; }
 
 #bottom-project-container-right-bottom-video-player {
-  background-image: url(/img/video_player_img/video_player_text.png);
+  background-image: url(/img/video_player_img/video_player_text.jpg);
   background-size: contain; }
 
 #header-image-container-taylor-fitness {
@@ -1148,16 +1163,16 @@ figure.effect-project:hover p {
   background-size: cover; }
 
 #bottom-project-container-left-taylor-fitness {
-  background-image: url(/img/taylor_fitness_coaching_img/taylor_fitness_coaching_contact_desktop.png);
+  background-image: url(/img/taylor_fitness_coaching_img/taylor_fitness_coaching_mobile.png);
   background-size: cover;
   background-position: top; }
 
 #bottom-project-container-right-top-taylor-fitness {
-  background-image: url(/img/taylor_fitness_coaching_img/taylor_fitness_coaching_tshirt_desktop.png);
+  background-image: url(/img/taylor_fitness_coaching_img/taylor_fitness_coaching_tshirt_desktop.jpg);
   background-size: contain; }
 
 #bottom-project-container-right-bottom-taylor-fitness {
-  background-image: url(/img/taylor_fitness_coaching_img/taylor_fitness_coaching_mobile.png);
+  background-image: url(/img/taylor_fitness_coaching_img/taylor_fitness_coaching_contact_desktop.png);
   background-size: contain; }
 
 #header-image-container-contact-form {
@@ -1176,7 +1191,7 @@ figure.effect-project:hover p {
   margin: 0 auto;
   position: relative;
   z-index: 100;
-  background-image: url(/img/contact_form_img/contact-page_full_desktop.png);
+  background-image: url(/img/contact_form_img/contact-page_full_desktop.jpg);
   background-size: cover; }
 
 #bottom-project-container-left-contact-form {
@@ -1303,17 +1318,17 @@ figure.effect-project:hover p {
   background-image: url(/img/marinero_img/JessSmokePortfolio.jpg); }
 
 #lightbox-work-container {
-  background-image: url(/img/lightbox_img/lightbox_lightbox.png); }
+  background-image: url(/img/lightbox_img/lightbox_lightbox.jpg); }
 
 #web-dashboard-work-container {
-  background-image: url(/img/web_dashboard_img/web_dashboard_full.png); }
+  background-image: url(/img/web_dashboard_img/web_dashboard_full.jpg); }
 
 #video-player-work-container {
-  background-image: url(/img/video_player_img/video_player_mobile.png);
+  background-image: url(/img/video_player_img/video_player_mobile.jpg);
   background-position: top; }
 
 #web-api-work-container {
-  background-image: url(/img/web_api_img/web_api_full.png);
+  background-image: url(/img/web_api_img/web_api_full.jpg);
   background-position: top; }
 
 #taylor-fitness-work-container {
@@ -1322,7 +1337,7 @@ figure.effect-project:hover p {
   background-size: 105%; }
 
 #contact-work-container {
-  background-image: url(/img/contact_form_img/contact-page_full_desktop.png);
+  background-image: url(/img/contact_form_img/contact-page_full_desktop.jpg);
   background-position: top; }
 
 .work:hover {

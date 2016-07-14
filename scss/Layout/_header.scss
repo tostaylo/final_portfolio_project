@@ -9,6 +9,7 @@
     text-align: center;
    }
 
+
 #sticky-menu {
     width: 60px;
     margin: 0 auto;
@@ -102,6 +103,7 @@
     @include header-image-container;
     background-image: url(/img/wodoStars.jpg);
     background-attachment: scroll;
+    height: 90vh;
     
   }
 
