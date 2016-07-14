@@ -867,8 +867,12 @@ figure.effect-project:hover p {
   right: -150px;
   cursor: pointer; }
 
-#right-arrow:hover {
-  opacity: 1; }
+#right-arrow:hover, #left-arrow:hover {
+  opacity: 1;
+  background-color: rebeccapurple; }
+
+#right-arrow:hover .arrow-svg path, #left-arrow:hover .arrow-svg path {
+  fill: white; }
 
 #left-arrow {
   width: 200px;
@@ -881,25 +885,40 @@ figure.effect-project:hover p {
   text-align: right;
   cursor: pointer; }
 
-#left-arrow:hover {
-  opacity: 1; }
+#left-arrow-svg {
+  position: absolute;
+  right: 0;
+  top: 13px; }
 
 #right-arrow-svg {
-  margin-left: 13px; }
+  margin-left: 0; }
 
 #right-project {
   margin-left: 20px;
   margin-right: 10px; }
 
 #left-project {
-  margin-left: 60px;
-  margin-right: 20px; }
+  width: 150px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 50px;
+  top: 0; }
 
 .project-arrow-a {
   color: black; }
 
+.arrow-svg path {
+  fill: black; }
+
 .right-arrow-h5, .left-arrow-h5 {
-  color: rebeccapurple; }
+  color: white; }
+
+.left-arrow-h5 {
+  width: 150px; }
+
+.right-arrow-h5:hover, .left-arrow-h5:hover {
+  opacity: .7; }
 
 /********************** HEADER*******************/
 .top-of-header-container {
@@ -960,25 +979,25 @@ figure.effect-project:hover p {
   font-size: 12px; }
 
 .bottom-project-container {
-  width: 80%;
-  height: 500px;
+  width: 300px;
+  height: auto;
   margin: 0 auto;
-  display: flex; }
+  display: block; }
 
 .bottom-project-container-right {
-  width: 50%;
-  height: 100%; }
+  width: 100%;
+  height: auto; }
 
 .bottom-project-container-left {
-  height: 100%;
-  width: 50%;
+  height: 300px;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border: 1px solid #E5E5E5; }
 
 .bottom-project-container-right-top {
-  height: 45%;
+  height: 300px;
   width: 100%;
   background-position: top center;
   background-repeat: no-repeat;
@@ -986,7 +1005,7 @@ figure.effect-project:hover p {
   border: 1px solid #E5E5E5; }
 
 .bottom-project-container-right-bottom {
-  height: 55%;
+  height: 300px;
   width: 100%;
   background-position: top center;
   background-repeat: no-repeat;
@@ -1169,11 +1188,11 @@ figure.effect-project:hover p {
 
 #bottom-project-container-right-top-taylor-fitness {
   background-image: url(/img/taylor_fitness_coaching_img/taylor_fitness_coaching_tshirt_desktop.jpg);
-  background-size: contain; }
+  background-size: cover; }
 
 #bottom-project-container-right-bottom-taylor-fitness {
   background-image: url(/img/taylor_fitness_coaching_img/taylor_fitness_coaching_contact_desktop.png);
-  background-size: contain; }
+  background-size: cover; }
 
 #header-image-container-contact-form {
   height: 100vh;
@@ -1354,6 +1373,35 @@ figure.effect-project:hover p {
   color: rebeccapurple; }
 
 @media (min-width: 768px) {
+  .bottom-project-container {
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    display: flex; }
+  .bottom-project-container-right {
+    width: 50%;
+    height: 100%; }
+  .bottom-project-container-left {
+    height: 100%;
+    width: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #E5E5E5; }
+  .bottom-project-container-right-top {
+    height: 45%;
+    width: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #E5E5E5; }
+  .bottom-project-container-right-bottom {
+    height: 55%;
+    width: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #E5E5E5; }
   .project-description {
     display: flex;
     justify-content: space-between; }
