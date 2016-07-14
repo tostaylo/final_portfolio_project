@@ -478,7 +478,7 @@ svg:hover .svg-gray {
   opacity: .5; }
 
 .project-svg-github {
-  margin: 0 auto; }
+  margin: 20px auto; }
 
 #sticky-header {
   background-color: white;
@@ -565,7 +565,8 @@ svg:hover .svg-gray {
   background-attachment: fixed;
   position: relative;
   text-align: center;
-  background-image: url(/img/wodoStars.jpg); }
+  background-image: url(/img/wodoStars.jpg);
+  background-attachment: scroll; }
 
 #main-logo {
   background-color: transparent;
@@ -1362,14 +1363,20 @@ figure.effect-project:hover p {
   .work-container-row {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap; } }
+    flex-wrap: wrap; }
+  .work {
+    margin-top: 30px; } }
 
 @media (min-width: 1024px) {
+  #header-image-container {
+    background-attachment: fixed; }
   .about-intro-container {
     width: 275px; }
   .more-intro-container {
     width: 275px; }
   .project-description-containers {
-    width: 275px; } }
+    width: 275px; }
+  .work {
+    margin-top: 10px; } }
 
 /*# sourceMappingURL=styles.css.map */

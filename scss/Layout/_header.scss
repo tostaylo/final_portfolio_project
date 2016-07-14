@@ -101,6 +101,8 @@
 #header-image-container {
     @include header-image-container;
     background-image: url(/img/wodoStars.jpg);
+    background-attachment: scroll;
+    
   }
 
 

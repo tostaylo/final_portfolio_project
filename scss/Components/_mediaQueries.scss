@@ -41,13 +41,18 @@ $breakpoint-desktop: 1024px;
         justify-content: space-between;
         flex-wrap: wrap;
     }
+    .work{
+        margin-top:30px;
+    }
    
 }
 
 
 @media (min-width: $breakpoint-desktop) {
     
-
+    #header-image-container {
+        background-attachment: fixed;
+    }
     
     .about-intro-container {
         width:275px;
@@ -59,5 +64,8 @@ $breakpoint-desktop: 1024px;
     
     .project-description-containers {
         width: 275px;
+    }
+    .work {
+        margin-top: 10px;
     }
 }
