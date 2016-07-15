@@ -54,7 +54,7 @@
     margin-right: 10px;
     }
 
-#left-project {
+.left-project {
     width: 150px;
     margin: 0;
     padding: 0;
@@ -62,6 +62,10 @@
     right:60px;
     top: 0;
     }
+
+#left-project-taylor-fitness-coaching {
+    top: -10px;
+}
 
 .project-arrow-a {
     color: black;
@@ -77,8 +81,9 @@
 
 .left-arrow-h5 {
     width: 150px;
-    
-}
+    }
+
+
 
 .right-arrow-h5:hover, .left-arrow-h5:hover {
     opacity: .7;
