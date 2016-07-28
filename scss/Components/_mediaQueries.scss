@@ -147,9 +147,12 @@ $breakpoint-large-screen: 1824px;
         height: 400px;
     }
     
-    #sticky-header{
-        display: block;
-        opacity:1;
+    .desktop-nav-a {
+        font-size: 22px;
+    }
+    
+    .about-description, .project-description {
+        height: 600px;
     }
     
     
