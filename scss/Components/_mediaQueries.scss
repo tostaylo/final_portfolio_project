@@ -152,7 +152,7 @@ $breakpoint-large-screen: 1824px;
     }
     
     .about-description, .project-description {
-        
+        height: 400px;
     }
     
      .about-intro-container {
@@ -165,6 +165,10 @@ $breakpoint-large-screen: 1824px;
     
     .project-description-containers {
         width: 400px;
+    }
+    
+    #right-here-p {
+        width: 100%;
     }
     
     

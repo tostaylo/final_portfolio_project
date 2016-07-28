@@ -1466,11 +1466,15 @@ figure.effect-project:hover p {
     height: 400px; }
   .desktop-nav-a {
     font-size: 22px; }
+  .about-description, .project-description {
+    height: 400px; }
   .about-intro-container {
     width: 400px; }
   .more-intro-container {
     width: 400px; }
   .project-description-containers {
-    width: 400px; } }
+    width: 400px; }
+  #right-here-p {
+    width: 100%; } }
 
 /*# sourceMappingURL=styles.css.map */
