@@ -1456,17 +1456,21 @@ figure.effect-project:hover p {
   #main-logo-tagline {
     font-size: 16px; }
   .project-intro-p {
-    font-size: 16px; }
-  .project-intro-title {
     font-size: 22px; }
+  .project-intro-title {
+    font-size: 28px; }
   .phone {
-    font-size: 14px; }
+    font-size: 18px; }
   .my-pic {
     width: 400px;
     height: 400px; }
   .desktop-nav-a {
     font-size: 22px; }
-  .about-description, .project-description {
-    height: 600px; } }
+  .about-intro-container {
+    width: 400px; }
+  .more-intro-container {
+    width: 400px; }
+  .project-description-containers {
+    width: 400px; } }
 
 /*# sourceMappingURL=styles.css.map */
