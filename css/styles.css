@@ -1475,6 +1475,8 @@ figure.effect-project:hover p {
   .project-description-containers {
     width: 400px; }
   #right-here-p {
-    width: 100%; } }
+    width: 100%; }
+  #work-image-container {
+    height: 1600px; } }
 
 /*# sourceMappingURL=styles.css.map */
