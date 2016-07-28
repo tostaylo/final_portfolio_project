@@ -1445,7 +1445,7 @@ figure.effect-project:hover p {
   .work {
     margin-top: 10px; } }
 
-@media (min-width: 1824px) {
+@media (min-width: 1620px) {
   .work {
     width: 400px;
     height: 400px; }
