@@ -118,6 +118,9 @@ $breakpoint-large-screen: 1824px;
         width: 400px;
         height:400px;
         }
+    .work-label-container {
+        width: 400px;
+    }
     
     #main-logo-name {
         font-size: 22px;
@@ -142,6 +145,11 @@ $breakpoint-large-screen: 1824px;
     .my-pic {
         width: 400px;
         height: 400px;
+    }
+    
+    #sticky-header{
+        display: block;
+        opacity:1;
     }
     
     

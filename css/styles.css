@@ -1449,6 +1449,8 @@ figure.effect-project:hover p {
   .work {
     width: 400px;
     height: 400px; }
+  .work-label-container {
+    width: 400px; }
   #main-logo-name {
     font-size: 22px; }
   #main-logo-tagline {
@@ -1461,6 +1463,9 @@ figure.effect-project:hover p {
     font-size: 14px; }
   .my-pic {
     width: 400px;
-    height: 400px; } }
+    height: 400px; }
+  #sticky-header {
+    display: block;
+    opacity: 1; } }
 
 /*# sourceMappingURL=styles.css.map */
