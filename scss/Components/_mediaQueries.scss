@@ -1,5 +1,6 @@
 $breakpoint-tablet: 768px;
 $breakpoint-desktop: 1024px;
+$breakpoint-large-screen: 1824px;
 @media (min-width: $breakpoint-tablet) {
     .bottom-project-container {
     width: 80%;
@@ -108,4 +109,40 @@ $breakpoint-desktop: 1024px;
     .work {
         margin-top: 10px;
     }
+}
+
+@media (min-width: $breakpoint-large-screen) {
+    
+   
+    .work {
+        width: 400px;
+        height:400px;
+        }
+    
+    #main-logo-name {
+        font-size: 22px;
+    }
+    
+    #main-logo-tagline{
+        font-size: 16px;
+    }
+    
+    .project-intro-p {
+        font-size: 16px;
+    }
+    
+    .project-intro-title {
+        font-size: 22px;
+    }
+    
+    .phone {
+        font-size: 14px;
+    }
+    
+    .my-pic {
+        width: 400px;
+        height: 400px;
+    }
+    
+    
 }

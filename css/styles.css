@@ -1445,4 +1445,22 @@ figure.effect-project:hover p {
   .work {
     margin-top: 10px; } }
 
+@media (min-width: 1824px) {
+  .work {
+    width: 400px;
+    height: 400px; }
+  #main-logo-name {
+    font-size: 22px; }
+  #main-logo-tagline {
+    font-size: 16px; }
+  .project-intro-p {
+    font-size: 16px; }
+  .project-intro-title {
+    font-size: 22px; }
+  .phone {
+    font-size: 14px; }
+  .my-pic {
+    width: 400px;
+    height: 400px; } }
+
 /*# sourceMappingURL=styles.css.map */
