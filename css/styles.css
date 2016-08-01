@@ -1032,6 +1032,9 @@ figure.effect-project:hover p {
   z-index: 100; }
 
 /********************** PROJECT SPECIFIC BACKGROUND IMAGES*******************/
+#header-image-container-resume {
+  background-image: url(/img/resume_app_img/resume_app_homescreen.png); }
+
 #header-image-container-marinero {
   background-image: url(/img/marinero_img/iphoneJessSmoke.jpg); }
 
@@ -1338,6 +1341,9 @@ figure.effect-project:hover p {
 
 #marinero-work-container {
   background-image: url(/img/marinero_img/JessSmokePortfolio.jpg); }
+
+#resume-work-container {
+  background-image: url(/img/resume_app_img/resume_app_homescreen.png); }
 
 #lightbox-work-container {
   background-image: url(/img/lightbox_img/lightbox_lightbox.jpg); }
