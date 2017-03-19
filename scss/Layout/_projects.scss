@@ -1,12 +1,9 @@
-
 .arrow {
-  display: flex;
+    display: flex;
     align-items: center;
     cursor: pointer;
     z-index: 200;
 }
-
-
 
 #right-arrow {
     width: 200px;
@@ -15,17 +12,19 @@
     opacity: .6;
     position: fixed;
     top: 45%;
-    right:-150px;
+    right: -150px;
     cursor: pointer;
-    }
-
-#right-arrow:hover, #left-arrow:hover {
-    opacity: 1;
-    background-color:rebeccapurple;
 }
 
-#right-arrow:hover .arrow-svg path, #left-arrow:hover .arrow-svg path{
-    fill:white;
+#right-arrow:hover,
+#left-arrow:hover {
+    opacity: 1;
+    background-color: rebeccapurple;
+}
+
+#right-arrow:hover .arrow-svg path,
+#left-arrow:hover .arrow-svg path {
+    fill: white;
 }
 
 #left-arrow {
@@ -35,33 +34,34 @@
     opacity: .6;
     position: fixed;
     top: 45%;
-    left:-150px;
+    left: -150px;
     text-align: right;
     cursor: pointer
-    }
-
-
-#left-arrow-svg{
-    position: absolute;
-    right:10px;
-    top:13px;
 }
-#right-arrow-svg{
+
+#left-arrow-svg {
+    position: absolute;
+    right: 10px;
+    top: 13px;
+}
+
+#right-arrow-svg {
     margin-left: 10px;
 }
+
 #right-project {
     margin-left: 20px;
     margin-right: 10px;
-    }
+}
 
 .left-project {
     width: 150px;
     margin: 0;
     padding: 0;
     position: absolute;
-    right:60px;
+    right: 60px;
     top: 0;
-    }
+}
 
 #left-project-taylor-fitness-coaching {
     top: -10px;
@@ -75,30 +75,24 @@
     fill: black;
 }
 
-.right-arrow-h5, .left-arrow-h5 {
-    color:white;
+.right-arrow-h5,
+.left-arrow-h5 {
+    color: white;
 }
 
 .left-arrow-h5 {
     width: 150px;
-    }
+}
 
-
-
-.right-arrow-h5:hover, .left-arrow-h5:hover {
+.right-arrow-h5:hover,
+.left-arrow-h5:hover {
     opacity: .7;
 }
 
 
-
-
-
-
-
-
 /********************** HEADER*******************/
 
-.top-of-header-container{
+.top-of-header-container {
     width: 100%;
     background: white;
     height: 95px;
@@ -106,31 +100,28 @@
     align-items: center;
 }
 
-.top-of-header-logo-container{
+.top-of-header-logo-container {
     margin-left: 10px;
     text-align: center;
 }
 
-
-
 .project-overlay {
     position: absolute;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     top: 0;
-    left:0;
+    left: 0;
     bottom: 0;
     right: 0;
     background-color: black;
     opacity: 0;
     z-index: 105;
-    }
+}
 
 .project-container {
     width: 90%;
     height: auto;
     margin: 0 auto;
-    
 }
 
 .project-heading-h1 {
@@ -142,7 +133,7 @@
     color: rebeccapurple;
 }
 
-.project-heading-h3{
+.project-heading-h3 {
     margin-top: 0;
     margin-bottom: 100px;
     display: inline-block;
@@ -152,18 +143,14 @@
     border-bottom: .5px solid darkgray;
 }
 
-
-
 .project-description {
     margin-bottom: 50px;
 }
 
-.project-description-containers {
-    
-}
+.project-description-containers {}
 
 .project-intro-title {
-    color:black;
+    color: black;
 }
 
 #project-details-p {
@@ -174,92 +161,93 @@
     color: darkgray;
     font-size: 14px;
 }
+
 .bottom-project-container {
     width: 300px;
     height: auto;
     margin: 0 auto;
     display: block;
-   }
-.bottom-project-container-right{
+}
+
+.bottom-project-container-right {
     width: 100%;
-    height:auto;
-    
+    height: auto;
 }
 
 .bottom-project-container-left {
-    height:300px;
-    width:100%;
+    height: 300px;
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size:cover;
-     border: 1px solid $gray-color;
-    
-    }
+    background-size: cover;
+    border: 1px solid $gray-color;
+}
 
 .bottom-project-container-right-top {
-    height:300px;
-    width:100%;
+    height: 300px;
+    width: 100%;
     background-position: top center;
     background-repeat: no-repeat;
-    background-size:cover;
-     border: 1px solid $gray-color;
-    
+    background-size: cover;
+    border: 1px solid $gray-color;
 }
 
 .bottom-project-container-right-bottom {
-    height:300px;
-    width:100%;
+    height: 300px;
+    width: 100%;
     background-position: top center;
     background-repeat: no-repeat;
-    background-size:cover;  
-     border: 1px solid $gray-color;
+    background-size: cover;
+    border: 1px solid $gray-color;
 }
+
 .project-image-container {
     @include header-image-container;
-     @include project-container;
-    }
-
+    @include project-container;
+}
 
 
 /********************** PROJECT SPECIFIC BACKGROUND IMAGES*******************/
 
 #header-image-container-resume {
     background-image: url(/img/resume_app_img/resume_app_homescreen.png);
-    }
-#bottom-project-container-left-resume{
+}
+
+#bottom-project-container-left-resume {
     background-image: url(/img/resume_app_img/resume_menu.png);
 }
 
 #bottom-project-container-right-top-resume {
     background-image: url(/img/resume_app_img/resume_styles.png);
 }
+
 #bottom-project-container-right-bottom-resume {
     background-image: url(/img/resume_app_img/lightbox_desktop.png);
 }
 
 #header-image-container-marinero {
     background-image: url(/img/marinero_img/iphoneJessSmoke.jpg);
-    }
+}
 
-#bottom-project-container-left-marinero{
+#bottom-project-container-left-marinero {
     background-image: url(/img/marinero_img/jessRed.jpg);
 }
 
 #bottom-project-container-right-top-marinero {
     background-image: url(/img/marinero_img/jessContact.jpg);
 }
+
 #bottom-project-container-right-bottom-marinero {
     background-image: url(/img/marinero_img/jessBio.jpg);
 }
 
 #header-image-container-lightbox {
     @include header-image-container;
-     @include project-container;
+    @include project-container;
     background-image: url(/img/lightbox_img/lightbox_desktop.jpg);
-    
-    }
+}
 
-#bottom-project-container-left-lightbox{
+#bottom-project-container-left-lightbox {
     background-image: url(/img/lightbox_img/lightbox_lightbox.jpg);
     background-size: cover;
 }
@@ -267,18 +255,19 @@
 #bottom-project-container-right-top-lightbox {
     background-image: url(/img/lightbox_img/lightbox_mobile_search.jpg);
 }
+
 #bottom-project-container-right-bottom-lightbox {
     background-image: url(/img/lightbox_img/lightbox_desktop_search.jpg);
 }
 
 #header-image-container-web-dashboard {
     @include header-image-container;
-     @include project-container;
+    @include project-container;
     background-image: url(/img/web_dashboard_img/web_dashboard_full.jpg);
     background-size: contain;
-    }
+}
 
-#bottom-project-container-left-web-dashboard{
+#bottom-project-container-left-web-dashboard {
     background-image: url(/img/web_dashboard_img/web-dashboard-bottom.jpg);
 }
 
@@ -286,103 +275,100 @@
     background-image: url(/img/web_dashboard_img/web_dashboard_full.jpg);
     background-position: center;
 }
+
 #bottom-project-container-right-bottom-web-dashboard {
     background-image: url(/img/web_dashboard_img/web-dashboard-mobile.jpg);
-     background-position: bottom;
+    background-position: bottom;
 }
 
 #header-image-container-web-api {
     @include header-image-container;
-     @include project-container;
+    @include project-container;
     background-image: url(/img/web_api_img/web_api_top.jpg);
-     background-position: top;
-    
-    }
+    background-position: top;
+}
 
-#bottom-project-container-left-web-api{
+#bottom-project-container-left-web-api {
     background-image: url(/img/web_api_img/web_api_lightbox.jpg);
 }
 
 #bottom-project-container-right-top-web-api {
     background-image: url(/img/web_api_img/web_api_top.jpg);
-    background-size:cover;
-
+    background-size: cover;
 }
+
 #bottom-project-container-right-bottom-web-api {
-     background-image: url(/img/web_api_img/web_api_mobile.jpg);
-     background-position: top;
-     background-size:contain;
+    background-image: url(/img/web_api_img/web_api_mobile.jpg);
+    background-position: top;
+    background-size: contain;
 }
 
 #header-image-container-video-player {
-     @include header-image-container;
-     @include project-container;
-     background-image: url(/img/video_player_img/video_player_tablet.jpg);
-     background-position: center;
-    }
+    @include header-image-container;
+    @include project-container;
+    background-image: url(/img/video_player_img/video_player_tablet.jpg);
+    background-position: center;
+}
 
-#bottom-project-container-left-video-player{
+#bottom-project-container-left-video-player {
     background-image: url(/img/video_player_img/video_player_mobile.jpg);
     background-position: top;
 }
 
 #bottom-project-container-right-top-video-player {
     background-image: url(/img/video_player_img/video_player_full.jpg);
-     background-size: contain;
-    }
+    background-size: contain;
+}
+
 #bottom-project-container-right-bottom-video-player {
     background-image: url(/img/video_player_img/video_player_text.jpg);
     background-size: contain;
-     
 }
 
-#header-image-container-taylor-fitness {
-     @include header-image-container;
-     @include project-container;
-     background-image: url(/img/taylor_fitness_coaching_img/taylor_fitness_coaching_desktop.png);
-     background-size: cover;
-    }
-
-#bottom-project-container-left-taylor-fitness{
-    background-image: url(/img/taylor_fitness_coaching_img/taylor_fitness_coaching_mobile.png);
-    background-size: cover ;
+#header-image-container-bhg {
+    @include header-image-container;
+    @include project-container;
+    background-image: url(/img/the_bloodhound_group_img/thebloodhoundgroup_home_desktop.png);
+    background-size: cover;
     background-position: top;
 }
 
-#bottom-project-container-right-top-taylor-fitness {
-    background-image: url(/img/taylor_fitness_coaching_img/taylor_fitness_coaching_tshirt_desktop.jpg);
-     background-size: cover;
-    }
-#bottom-project-container-right-bottom-taylor-fitness {
-    background-image: url(/img/taylor_fitness_coaching_img/taylor_fitness_coaching_contact_desktop.png);
+#bottom-project-container-left-bhg {
+    background-image: url(/img/the_bloodhound_group_img/thebloodhoundgroup_home_mobile.png);
     background-size: cover;
-     
+    background-position: center;
+}
+
+#bottom-project-container-right-top-bhg {
+    background-image: url(/img/the_bloodhound_group_img/thebloodhoundgroup_podcasts_desktop.png);
+    background-size: cover;
+}
+
+#bottom-project-container-right-bottom-bhg {
+    background-image: url(/img/the_bloodhound_group_img/thebloodhoundgroup_login_desktop.png);
+    background-size: cover;
 }
 
 #header-image-container-contact-form {
-     @include header-image-container;
-     @include project-container;
-     background-image: url(/img/contact_form_img/contact-page_full_desktop.jpg);
-     background-size: cover;
-    }
+    @include header-image-container;
+    @include project-container;
+    background-image: url(/img/contact_form_img/contact-page_full_desktop.jpg);
+    background-size: cover;
+}
 
-#bottom-project-container-left-contact-form{
+#bottom-project-container-left-contact-form {
     background-image: url(/img/contact_form_img/contact_form_required_desktop.png);
     background-size: cover;
     background-position: top;
-  
 }
 
 #bottom-project-container-right-top-contact-form {
     background-image: url(/img/contact_form_img/contact_form_bottom_mobile.png);
-     background-size: cover;
+    background-size: cover;
     background-position: center;
-   
-    }
+}
+
 #bottom-project-container-right-bottom-contact-form {
     background-image: url(/img/contact_form_img/contact_form_middle_mobile.png);
     background-size: cover;
-     
 }
-
-

@@ -866,11 +866,13 @@ figure.effect-project:hover p {
   right: -150px;
   cursor: pointer; }
 
-#right-arrow:hover, #left-arrow:hover {
+#right-arrow:hover,
+#left-arrow:hover {
   opacity: 1;
   background-color: rebeccapurple; }
 
-#right-arrow:hover .arrow-svg path, #left-arrow:hover .arrow-svg path {
+#right-arrow:hover .arrow-svg path,
+#left-arrow:hover .arrow-svg path {
   fill: white; }
 
 #left-arrow {
@@ -913,13 +915,15 @@ figure.effect-project:hover p {
 .arrow-svg path {
   fill: black; }
 
-.right-arrow-h5, .left-arrow-h5 {
+.right-arrow-h5,
+.left-arrow-h5 {
   color: white; }
 
 .left-arrow-h5 {
   width: 150px; }
 
-.right-arrow-h5:hover, .left-arrow-h5:hover {
+.right-arrow-h5:hover,
+.left-arrow-h5:hover {
   opacity: .7; }
 
 /********************** HEADER*******************/
@@ -1176,7 +1180,7 @@ figure.effect-project:hover p {
   background-image: url(/img/video_player_img/video_player_text.jpg);
   background-size: contain; }
 
-#header-image-container-taylor-fitness {
+#header-image-container-bhg {
   height: 100vh;
   width: 100%;
   background-repeat: no-repeat;
@@ -1192,20 +1196,21 @@ figure.effect-project:hover p {
   margin: 0 auto;
   position: relative;
   z-index: 100;
-  background-image: url(/img/taylor_fitness_coaching_img/taylor_fitness_coaching_desktop.png);
-  background-size: cover; }
-
-#bottom-project-container-left-taylor-fitness {
-  background-image: url(/img/taylor_fitness_coaching_img/taylor_fitness_coaching_mobile.png);
+  background-image: url(/img/the_bloodhound_group_img/thebloodhoundgroup_home_desktop.png);
   background-size: cover;
   background-position: top; }
 
-#bottom-project-container-right-top-taylor-fitness {
-  background-image: url(/img/taylor_fitness_coaching_img/taylor_fitness_coaching_tshirt_desktop.jpg);
+#bottom-project-container-left-bhg {
+  background-image: url(/img/the_bloodhound_group_img/thebloodhoundgroup_home_mobile.png);
+  background-size: cover;
+  background-position: center; }
+
+#bottom-project-container-right-top-bhg {
+  background-image: url(/img/the_bloodhound_group_img/thebloodhoundgroup_podcasts_desktop.png);
   background-size: cover; }
 
-#bottom-project-container-right-bottom-taylor-fitness {
-  background-image: url(/img/taylor_fitness_coaching_img/taylor_fitness_coaching_contact_desktop.png);
+#bottom-project-container-right-bottom-bhg {
+  background-image: url(/img/the_bloodhound_group_img/thebloodhoundgroup_login_desktop.png);
   background-size: cover; }
 
 #header-image-container-contact-form {
