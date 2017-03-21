@@ -349,6 +349,30 @@
     background-size: cover;
 }
 
+#header-image-container-pawn-talk {
+    @include header-image-container;
+    @include project-container;
+    background-image: url(/img/pawn_talk_img/pawntalk_chat_desktop.png);
+    background-size: cover;
+    background-position: top;
+}
+
+#bottom-project-container-left-pawn-talk {
+    background-image: url(/img/pawn_talk_img/pawntalk_name_dekstop.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#bottom-project-container-right-top-pawn-talk {
+    background-image: url(/img/pawn_talk_img/pawntalk_home_desktop.png);
+    background-size: cover;
+}
+
+#bottom-project-container-right-bottom-pawn-talk {
+    background-image: url(/img/pawn_talk_img/pawntalk_chat_desktop.png);
+    background-size: cover;
+}
+
 #header-image-container-contact-form {
     @include header-image-container;
     @include project-container;

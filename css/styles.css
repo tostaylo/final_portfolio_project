@@ -1213,6 +1213,39 @@ figure.effect-project:hover p {
   background-image: url(/img/the_bloodhound_group_img/thebloodhoundgroup_login_desktop.png);
   background-size: cover; }
 
+#header-image-container-pawn-talk {
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  text-align: center;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 90%;
+  height: 75vh;
+  margin: 0 auto;
+  position: relative;
+  z-index: 100;
+  background-image: url(/img/pawn_talk_img/pawntalk_chat_desktop.png);
+  background-size: cover;
+  background-position: top; }
+
+#bottom-project-container-left-pawn-talk {
+  background-image: url(/img/pawn_talk_img/pawntalk_name_dekstop.png);
+  background-size: cover;
+  background-position: center; }
+
+#bottom-project-container-right-top-pawn-talk {
+  background-image: url(/img/pawn_talk_img/pawntalk_home_desktop.png);
+  background-size: cover; }
+
+#bottom-project-container-right-bottom-pawn-talk {
+  background-image: url(/img/pawn_talk_img/pawntalk_chat_desktop.png);
+  background-size: cover; }
+
 #header-image-container-contact-form {
   height: 100vh;
   width: 100%;
@@ -1353,6 +1386,12 @@ figure.effect-project:hover p {
   height: 1px;
   width: 20px;
   border: 0.5px solid #E5E5E5; }
+
+#pawn-work-container {
+  background-image: url(/img/pawn_talk_img/pawntalk_narrow.png); }
+
+#bhg-work-container {
+  background-image: url(/img/the_bloodhound_group_img/thebloodhoundgroup_home_desktop.png); }
 
 #marinero-work-container {
   background-image: url(/img/marinero_img/JessSmokePortfolio.jpg); }
