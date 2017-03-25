@@ -1213,6 +1213,72 @@ figure.effect-project:hover p {
   background-image: url(/img/the_bloodhound_group_img/thebloodhoundgroup_login_desktop.png);
   background-size: cover; }
 
+#header-image-container-taylor-fitness {
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  text-align: center;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 90%;
+  height: 75vh;
+  margin: 0 auto;
+  position: relative;
+  z-index: 100;
+  background-image: url(/img/taylor_fitness_coaching_img/taylor_fitness_coaching_desktop.png);
+  background-size: cover;
+  background-position: top; }
+
+#bottom-project-container-left-taylor-fitness {
+  background-image: url(/img/taylor_fitness_coaching_img/taylor_fitness_coaching_mobile.png);
+  background-size: cover;
+  background-position: center; }
+
+#bottom-project-container-right-top-taylor-fitness {
+  background-image: url(/img/taylor_fitness_coaching_img/taylor_fitness_coaching_tshirt_desktop.jpg);
+  background-size: cover; }
+
+#bottom-project-container-right-bottom-taylor-fitness {
+  background-image: url(/img/taylor_fitness_coaching_img/taylor_fitness_coaching_contact_desktop.png);
+  background-size: cover; }
+
+#header-image-container-fbg {
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  text-align: center;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 90%;
+  height: 75vh;
+  margin: 0 auto;
+  position: relative;
+  z-index: 100;
+  background-image: url(/img/finger_brain_go_img/finger_brain_go_desktop_signed_in.png);
+  background-size: cover;
+  background-position: top; }
+
+#bottom-project-container-left-fbg {
+  background-image: url(/img/finger_brain_go_img/finger_brain_go_desktop.png);
+  background-size: cover;
+  background-position: center; }
+
+#bottom-project-container-right-top-fbg {
+  background-image: url(/img/finger_brain_go_img/finger_brain_go_gameplay.png);
+  background-size: cover; }
+
+#bottom-project-container-right-bottom-fbg {
+  background-image: url(/img/finger_brain_go_img/finger_brain_go_desktop.png);
+  background-size: cover; }
+
 #header-image-container-pawn-talk {
   height: 100vh;
   width: 100%;
@@ -1389,6 +1455,9 @@ figure.effect-project:hover p {
 
 #pawn-work-container {
   background-image: url(/img/pawn_talk_img/pawntalk_narrow.png); }
+
+#fbg-work-container {
+  background-image: url(/img/finger_brain_go_img/finger_brain_go_desktop_signed_in.png); }
 
 #bhg-work-container {
   background-image: url(/img/the_bloodhound_group_img/thebloodhoundgroup_home_desktop.png); }

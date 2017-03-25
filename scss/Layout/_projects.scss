@@ -349,6 +349,54 @@
     background-size: cover;
 }
 
+#header-image-container-taylor-fitness {
+    @include header-image-container;
+    @include project-container;
+    background-image: url(/img/taylor_fitness_coaching_img/taylor_fitness_coaching_desktop.png);
+    background-size: cover;
+    background-position: top;
+}
+
+#bottom-project-container-left-taylor-fitness {
+    background-image: url(/img/taylor_fitness_coaching_img/taylor_fitness_coaching_mobile.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#bottom-project-container-right-top-taylor-fitness {
+    background-image: url(/img/taylor_fitness_coaching_img/taylor_fitness_coaching_tshirt_desktop.jpg);
+    background-size: cover;
+}
+
+#bottom-project-container-right-bottom-taylor-fitness {
+    background-image: url(/img/taylor_fitness_coaching_img/taylor_fitness_coaching_contact_desktop.png);
+    background-size: cover;
+}
+
+#header-image-container-fbg {
+    @include header-image-container;
+    @include project-container;
+    background-image: url(/img/finger_brain_go_img/finger_brain_go_desktop_signed_in.png);
+    background-size: cover;
+    background-position: top;
+}
+
+#bottom-project-container-left-fbg {
+    background-image: url(/img/finger_brain_go_img/finger_brain_go_desktop.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#bottom-project-container-right-top-fbg {
+    background-image: url(/img/finger_brain_go_img/finger_brain_go_gameplay.png);
+    background-size: cover;
+}
+
+#bottom-project-container-right-bottom-fbg {
+    background-image: url(/img/finger_brain_go_img/finger_brain_go_desktop.png);
+    background-size: cover;
+}
+
 #header-image-container-pawn-talk {
     @include header-image-container;
     @include project-container;
