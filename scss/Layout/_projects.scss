@@ -373,6 +373,32 @@
     background-size: cover;
 }
 
+#header-image-container-bicycle {
+    @include header-image-container;
+    @include project-container;
+    background-image: url(/img/bicycle_fatality_img/bicycle_data_visualization_full_desktop.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#bottom-project-container-left-bicycle {
+    background-image: url(/img/bicycle_fatality_img/bicycle_data_visualization_full_desktop.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#bottom-project-container-right-top-bicycle {
+    background-image: url(/img/bicycle_fatality_img/bicycle_fatality_full_florida.png);
+    background-size: cover;
+    background-position: bottom;
+}
+
+#bottom-project-container-right-bottom-bicycle {
+    background-image: url(/img/bicycle_fatality_img/bicycle_fatality_full_florida.png);
+    background-size: cover;
+    background-position: top;
+}
+
 #header-image-container-fbg {
     @include header-image-container;
     @include project-container;

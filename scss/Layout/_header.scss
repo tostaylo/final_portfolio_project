@@ -1,26 +1,24 @@
-
 #sticky-header {
     background-color: white;
-    opacity: .9;
-    width: 100%; 
+    opacity: 1;
+    width: 100%;
     display: none;
     position: fixed;
     z-index: 200;
     text-align: center;
-   }
-
+}
 
 #sticky-menu {
     width: 60px;
     margin: 0 auto;
-    color:darkgray;
+    color: darkgray;
     cursor: pointer;
     border-bottom: .5px solid darkgray;
     font-family: 'Tinos', serif;
 }
 
 #sticky-menu:hover {
-    color:black;
+    color: black;
 }
 
 #sticky-ul {
@@ -32,14 +30,13 @@
     display: none;
     position: relative;
     background-color: white;
-    }
+}
 
 .sticky-li {
     width: 100%;
     text-decoration: none;
     color: black;
     padding: 12px 0;
-    
 }
 
 .sticky-nav-a {
@@ -49,16 +46,14 @@
 }
 
 .sticky-nav-a:hover {
-    color:black;
+    color: black;
 }
-
 
 #sticky-name-sub-container {
     position: relative;
-   
 }
 
-.sticky-p{
+.sticky-p {
     color: darkgray;
     font-weight: 100;
     font-size: 20px;
@@ -71,43 +66,33 @@
     width: 300px;
     margin: 10px auto;
 }
+
 .sticky-logo-name {
     font-weight: 100;
     font-size: 12px;
-    letter-spacing: 3px ;
+    letter-spacing: 3px;
     color: black;
 }
 
 .sticky-logo-tagline {
-    color:black;
+    color: black;
     font-weight: 100;
     font-size: 8px;
-    letter-spacing:2px;
-   
+    letter-spacing: 2px;
 }
-
-
-
-
 
 #main-container {
     width: 100%;
     height: auto;
     position: relative;
-    }
-
-
-
+}
 
 #header-image-container {
     @include header-image-container;
     background-image: url(/img/wodoStars.jpg);
     background-attachment: scroll;
     height: 90vh;
-    
-  }
-
-
+}
 
 #main-logo {
     background-color: transparent;
@@ -120,16 +105,15 @@
     right: 0;
     margin: 0 auto;
     text-align: center;
-   }
+}
 
-.logo-p{
+.logo-p {
     margin: 0;
-   }
+}
 
 .logo-p:hover {
     color: rebeccapurple;
 }
-
 
 #main-logo-name {
     opacity: .8;
@@ -137,7 +121,6 @@
     font-size: 18px;
     letter-spacing: 12px;
     margin: 0;
-    
 }
 
 #main-logo-tagline {
@@ -153,15 +136,15 @@
     position: absolute;
     bottom: 50px;
     right: 50px;
-    }
+}
 
 .desktop-nav-a {
-    color:white;
+    color: white;
     padding: 0 10px;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
 }
 
 .desktop-nav-a:hover {
-    opacity:.6;
-    }
+    opacity: .6;
+}

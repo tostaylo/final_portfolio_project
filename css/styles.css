@@ -482,7 +482,7 @@ svg:hover .svg-gray {
 
 #sticky-header {
   background-color: white;
-  opacity: .9;
+  opacity: 1;
   width: 100%;
   display: none;
   position: fixed;
@@ -1246,6 +1246,41 @@ figure.effect-project:hover p {
   background-image: url(/img/taylor_fitness_coaching_img/taylor_fitness_coaching_contact_desktop.png);
   background-size: cover; }
 
+#header-image-container-bicycle {
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  text-align: center;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 90%;
+  height: 75vh;
+  margin: 0 auto;
+  position: relative;
+  z-index: 100;
+  background-image: url(/img/bicycle_fatality_img/bicycle_data_visualization_full_desktop.png);
+  background-size: cover;
+  background-position: center; }
+
+#bottom-project-container-left-bicycle {
+  background-image: url(/img/bicycle_fatality_img/bicycle_data_visualization_full_desktop.png);
+  background-size: cover;
+  background-position: center; }
+
+#bottom-project-container-right-top-bicycle {
+  background-image: url(/img/bicycle_fatality_img/bicycle_fatality_full_florida.png);
+  background-size: cover;
+  background-position: bottom; }
+
+#bottom-project-container-right-bottom-bicycle {
+  background-image: url(/img/bicycle_fatality_img/bicycle_fatality_full_florida.png);
+  background-size: cover;
+  background-position: top; }
+
 #header-image-container-fbg {
   height: 100vh;
   width: 100%;
@@ -1455,6 +1490,9 @@ figure.effect-project:hover p {
 
 #pawn-work-container {
   background-image: url(/img/pawn_talk_img/pawntalk_narrow.png); }
+
+#bicycle-work-container {
+  background-image: url(/img/bicycle_fatality_img/bicycle_data_visualization_full_desktop.png); }
 
 #fbg-work-container {
   background-image: url(/img/finger_brain_go_img/finger_brain_go_desktop_signed_in.png); }
