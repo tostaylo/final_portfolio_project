@@ -103,6 +103,11 @@
     background-position: top;
 }
 
+#codewars-work-container {
+    background-image: url(/img/codewars_img/codewars_mobile.png);
+    background-position: top;
+}
+
 .work:hover {
     -webkit-animation: zoomin 2s;
     -webkit-animation-fill-mode: forwards;

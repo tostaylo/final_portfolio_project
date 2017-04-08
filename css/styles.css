@@ -1246,6 +1246,39 @@ figure.effect-project:hover p {
   background-image: url(/img/taylor_fitness_coaching_img/taylor_fitness_coaching_contact_desktop.png);
   background-size: cover; }
 
+#header-image-container-codewars {
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  text-align: center;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 90%;
+  height: 75vh;
+  margin: 0 auto;
+  position: relative;
+  z-index: 100;
+  background-image: url(/img/codewars_img/codewars_desktop_profile_top.png);
+  background-size: cover;
+  background-position: top; }
+
+#bottom-project-container-left-codewars {
+  background-image: url(/img/codewars_img/codewars_desktop_profile_full.png);
+  background-size: cover;
+  background-position: center; }
+
+#bottom-project-container-right-top-codewars {
+  background-image: url(/img/codewars_img/codewars_profile_ranking.png);
+  background-size: cover; }
+
+#bottom-project-container-right-bottom-codewars {
+  background-image: url(/img/codewars_img/codewars_problem_desktop.png);
+  background-size: cover; }
+
 #header-image-container-bicycle {
   height: 100vh;
   width: 100%;
@@ -1527,6 +1560,10 @@ figure.effect-project:hover p {
 
 #contact-work-container {
   background-image: url(/img/contact_form_img/contact-page_full_desktop.jpg);
+  background-position: top; }
+
+#codewars-work-container {
+  background-image: url(/img/codewars_img/codewars_mobile.png);
   background-position: top; }
 
 .work:hover {

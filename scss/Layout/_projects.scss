@@ -373,6 +373,30 @@
     background-size: cover;
 }
 
+#header-image-container-codewars {
+    @include header-image-container;
+    @include project-container;
+    background-image: url(/img/codewars_img/codewars_desktop_profile_top.png);
+    background-size: cover;
+    background-position: top;
+}
+
+#bottom-project-container-left-codewars {
+    background-image: url(/img/codewars_img/codewars_desktop_profile_full.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#bottom-project-container-right-top-codewars {
+    background-image: url(/img/codewars_img/codewars_profile_ranking.png);
+    background-size: cover;
+}
+
+#bottom-project-container-right-bottom-codewars {
+    background-image: url(/img/codewars_img/codewars_problem_desktop.png);
+    background-size: cover;
+}
+
 #header-image-container-bicycle {
     @include header-image-container;
     @include project-container;
