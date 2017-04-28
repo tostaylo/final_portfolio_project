@@ -147,8 +147,6 @@
     margin-bottom: 50px;
 }
 
-.project-description-containers {}
-
 .project-intro-title {
     color: black;
 }
@@ -160,6 +158,14 @@
 .project-intro-p {
     color: darkgray;
     font-size: 14px;
+}
+
+.project-intro-ul{
+    padding: 0;
+}
+
+.project-intro-li{
+    margin-bottom: 5px;
 }
 
 .bottom-project-container {
@@ -394,6 +400,54 @@
 
 #bottom-project-container-right-bottom-codewars {
     background-image: url(/img/codewars_img/codewars_problem_desktop.png);
+    background-size: cover;
+}
+
+#header-image-container-slow {
+    @include header-image-container;
+    @include project-container;
+    background-image: url(/img/slow_img/slow_home.png);
+    background-size: cover;
+    background-position: top;
+}
+
+#bottom-project-container-left-slow {
+    background-image: url(/img/slow_img/slow_entry.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#bottom-project-container-right-top-slow {
+    background-image: url(/img/slow_img/slow_search.png);
+    background-size: cover;
+}
+
+#bottom-project-container-right-bottom-slow {
+    background-image: url(/img/slow_img/slow_companies.png);
+    background-size: cover;
+}
+
+#header-image-container-cams {
+    @include header-image-container;
+    @include project-container;
+    background-image: url(/img/cams_img/cams_home.png);
+    background-size: cover;
+    background-position: top;
+}
+
+#bottom-project-container-left-cams {
+    background-image: url(/img/cams_img/cams_description.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#bottom-project-container-right-top-cams {
+    background-image: url(/img/cams_img/slow_login.png);
+    background-size: cover;
+}
+
+#bottom-project-container-right-bottom-cams {
+    background-image: url(/img/cams_img/cams_home.png);
     background-size: cover;
 }
 
