@@ -116,6 +116,12 @@
     background-position: top;
 }
 
+#media-work-container {
+    background-image: url(/img/media_img/media.jpg);
+    background-position: center;
+    background-size: contain;
+}
+
 .work:hover {
     -webkit-animation: zoomin 2s;
     -webkit-animation-fill-mode: forwards;

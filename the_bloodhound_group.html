@@ -29,7 +29,7 @@
             <div class="sticky-logo-div">
                 <a href="index.html">
                     <p class="logo-p sticky-logo-name">TORRE TAYLOR</p>
-                    <p class="logo-p sticky-logo-tagline">WEB DESIGN AND DEVELOPMENT</p>
+                    <p class="logo-p sticky-logo-tagline">Full Stack Software Engineer</p>
                 </a>
             </div>
         </div>
@@ -39,7 +39,7 @@
         <a class="top-of-header-logo-a" href="index.html">
             <div class="top-of-header-logo-container">
                 <p class="logo-p sticky-logo-name">TORRE TAYLOR</p>
-                <p class="logo-p sticky-logo-tagline">WEB DESIGN AND DEVELOPMENT</p>
+                <p class="logo-p sticky-logo-tagline">Full Stack Software Engineer</p>
             </div>
         </a>
     </div>
@@ -97,7 +97,8 @@
 
         <div class="project-container">
             <div class="project-heading">
-                <h1 class="project-heading-h1">The Bloodhound Group</h1></div>
+                <h1 class="project-heading-h1">The Bloodhound Group</h1>
+            </div>
             <div class="project-sub-heading">
                 <h5 class="project-heading-h5">-Web App</h5>
             </div>
@@ -112,7 +113,12 @@
                 </div>
                 <div class="project-fun-container project-description-containers">
                     <p class="project-intro-title">Points of Interest</p>
-                    <p class="project-intro-p">For this project I used Firebase to get the back-end up and running quickly. With Firebase I was able to implement an authorization system where a user could login with their custom credentials or with their Facebook or Google credentials.</p>
+                    <ul class="project-intro-p project-intro-ul">
+                        <li>Created platform for users to retrieve information from valuable self-development content and sign up for The Bloodhound Group newsletter utilizing JavaScript, jQuery and Firebase.</li>
+                        <li>Implemented Firebase Auth to enable user secure authentication process through Facebook, Google, or email.</li>
+                        <li>Automated production build process using Gulp to reduce Sass to CSS3 compilation time by more than 90%.</li>
+                        <li>Ensured mobile responsive UI/UX across 4+ diၬerent screen sizes utilizing HTML5, CSS3, Flexbox, and Sass.</li>
+                    </ul>
                     <div class="description-buffers"></div>
                 </div>
                 <div class="project-stats-container project-description-containers">
@@ -155,11 +161,16 @@
             </div>
         </div>
 
-
-
         <div id="buffer"> </div>
         <div id="bottom-scroller">
             <ul id="footer-ul">
+                <li class="footer-li" id="linkedin_li">
+                    <a class="footer-nav-a" href="https://www.linkedin.com/in/taylortorre/" target="_blank">
+                        <div class="svg-div" id="medium-div">
+                            <img id="linkedin_icon" alt="medium" src="img/linkedin-logo.png">
+                        </div>
+                    </a>
+                </li>
                 <li class="footer-li">
                     <a class="footer-nav-a" href="https://github.com/tostaylo" target="_blank">
                         <div class="svg-div">
@@ -230,19 +241,7 @@
             </ul>
 
         </div>
-
-
     </div>
-
-
-
-
-
-
-
-
-
-
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script src="js/main.js"></script>
 </body>

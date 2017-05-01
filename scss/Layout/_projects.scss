@@ -548,3 +548,10 @@
     background-image: url(/img/contact_form_img/contact_form_middle_mobile.png);
     background-size: cover;
 }
+
+#header-image-container-media{
+    @include header-image-container;
+    @include project-container;
+    background-image: url(/img/media_img/media.jpg);
+    background-size: cover;
+}
