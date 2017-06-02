@@ -89,9 +89,9 @@
 
 #header-image-container {
     @include header-image-container;
-    background-image: url(/img/wodoStars.jpg);
     background-attachment: scroll;
     height: 90vh;
+    border-bottom: 1px solid black;
 }
 
 #main-logo {
@@ -105,6 +105,9 @@
     right: 0;
     margin: 0 auto;
     text-align: center;
+    border-top: 1px solid black;
+    border-radius: 4px;
+    padding: 10px;
 }
 
 .logo-p {
@@ -117,19 +120,24 @@
 
 #main-logo-name {
     opacity: .8;
+    font-family: 'Roboto', sans-serif;
     font-weight: 100;
     font-size: 18px;
     letter-spacing: 12px;
     margin: 0;
+    color: black;
+   
 }
 
 #main-logo-tagline {
     opacity: .5;
+    font-family: 'Roboto', sans-serif;
     font-weight: 100;
     font-size: 12px;
     letter-spacing: 10px;
     line-height: 14px;
     margin: 0;
+    color: black;
 }
 
 #desktop-nav {
@@ -139,7 +147,7 @@
 }
 
 .desktop-nav-a {
-    color: white;
+    color: gray;
     padding: 0 10px;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;

@@ -572,9 +572,9 @@ svg:hover .svg-gray {
   background-attachment: fixed;
   position: relative;
   text-align: center;
-  background-image: url(/img/wodoStars.jpg);
   background-attachment: scroll;
-  height: 90vh; }
+  height: 90vh;
+  border-bottom: 1px solid black; }
 
 #main-logo {
   background-color: transparent;
@@ -586,7 +586,10 @@ svg:hover .svg-gray {
   left: 0;
   right: 0;
   margin: 0 auto;
-  text-align: center; }
+  text-align: center;
+  border-top: 1px solid black;
+  border-radius: 4px;
+  padding: 10px; }
 
 .logo-p {
   margin: 0; }
@@ -596,18 +599,22 @@ svg:hover .svg-gray {
 
 #main-logo-name {
   opacity: .8;
+  font-family: 'Roboto', sans-serif;
   font-weight: 100;
   font-size: 18px;
   letter-spacing: 12px;
-  margin: 0; }
+  margin: 0;
+  color: black; }
 
 #main-logo-tagline {
   opacity: .5;
+  font-family: 'Roboto', sans-serif;
   font-weight: 100;
   font-size: 12px;
   letter-spacing: 10px;
   line-height: 14px;
-  margin: 0; }
+  margin: 0;
+  color: black; }
 
 #desktop-nav {
   position: absolute;
@@ -615,7 +622,7 @@ svg:hover .svg-gray {
   right: 50px; }
 
 .desktop-nav-a {
-  color: white;
+  color: gray;
   padding: 0 10px;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif; }
@@ -628,15 +635,6 @@ svg:hover .svg-gray {
   height: 20px;
   width: 200px; }
 
-.come-in-div {
-  width: 100%;
-  height: 50vh;
-  background: white;
-  position: relative;
-  opacity: 0;
-  display: flex;
-  margin: 0; }
-
 #buffer {
   width: 100%;
   height: 200px;
@@ -646,188 +644,6 @@ svg:hover .svg-gray {
   width: 100%;
   height: 100px;
   position: relative; }
-
-.grid {
-  position: relative;
-  margin: 0 auto;
-  list-style: none;
-  text-align: center;
-  width: 50%;
-  height: 100%;
-  margin: auto auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  cursor: pointer;
-  vertical-align: middle;
-  position: relative;
-  overflow: hidden; }
-
-/* Common style */
-.grid figure {
-  position: relative;
-  float: left;
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
-  background: white;
-  text-align: center;
-  cursor: pointer;
-  margin: 0; }
-
-.grid figure figcaption {
-  padding: 0;
-  color: black;
-  text-transform: uppercase;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden; }
-
-.grid figure figcaption::before,
-.grid figure figcaption::after {
-  pointer-events: none; }
-
-.grid figure figcaption,
-.grid figure figcaption > a {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%; }
-
-/* Anchor will cover the whole item by default */
-/* For some effects it will show as a button */
-.grid figure figcaption > a {
-  z-index: 100;
-  white-space: nowrap;
-  font-size: 0;
-  opacity: 0; }
-
-.grid figure h2 {
-  font-weight: 300;
-  border-bottom: 1px solid black;
-  display: inline-block; }
-
-.grid figure h2 span {
-  font-weight: 800; }
-
-.grid figure h2,
-.grid figure p {
-  margin: 0;
-  font-family: 'Tinos', serif; }
-
-.grid figure p {
-  letter-spacing: 1px;
-  font-size: 68.5%; }
-
-/*#background-div-one {
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
-   @include moving-background-image;
-}
-  
-#background-div-two {
-     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
-        @include moving-background-image;
-    } 
-
-#background-div-three {
-     background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
-        @include moving-background-image;
-    }
-
-#background-div-four {
-     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
-        @include moving-background-image;
-    }
-
-#background-div-five {
-     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
-        @include moving-background-image;
-    }
-
-#background-div-six {
-     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
-        @include moving-background-image;
-    }
-
-#background-div-seven {
-     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
-        @include moving-background-image;
-    }
-
-#background-div-eight {
-     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
-        @include moving-background-image;
-    }
-*/
-.background-div {
-  background: linear-gradient(transparent, transparent);
-  -webkit-filter: blur(0px);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 300px 250px;
-  border-radius: 50%;
-  margin-left: 100px;
-  width: 120%;
-  height: 120%;
-  background-color: white;
-  opacity: 1; }
-
-/* Individual effects */
-/*---------------*/
-/***** PROJECT *****/
-/*---------------*/
-figure.effect-project .background-div {
-  max-width: none;
-  width: -webkit-calc(100% + 50px);
-  width: calc(100% + 50px);
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: translate3d(-40px, 0, 0);
-  transform: translate3d(-40px, 0, 0); }
-
-figure.effect-project figcaption {
-  text-align: left; }
-
-figure.effect-project figcaption > div {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  padding: 0 0 0 20px;
-  width: 100%;
-  height: 50%; }
-
-figure.effect-project h2,
-figure.effect-project p {
-  -webkit-transform: translate3d(0, 40px, 0);
-  transform: translate3d(0, 40px, 0); }
-
-figure.effect-project h2 {
-  -webkit-transition: -webkit-transform 0.35s;
-  transition: transform 0.35s; }
-
-figure.effect-project p {
-  color: rgba(0, 0, 0, 0.8);
-  opacity: 0;
-  -webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
-  transition: opacity 0.2s, transform 0.35s; }
-
-figure.effect-project:hover .background-div {
-  background-color: #E5E5E5;
-  opacity: .4; }
-
-figure.effect-project:hover p {
-  opacity: .9; }
-
-figure.effect-project:hover .background-div,
-figure.effect-project:hover h2,
-figure.effect-lily:hover p {
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0); }
-
-figure.effect-project:hover p {
-  -webkit-transition-delay: 0.05s;
-  transition-delay: 0.05s;
-  -webkit-transition-duration: 0.35s;
-  transition-duration: 0.35s; }
 
 #bottom-scroller {
   width: 100%;
