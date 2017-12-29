@@ -683,7 +683,7 @@ svg:hover .svg-gray {
   width: 200px;
   height: 60px;
   background: white;
-  opacity: .6;
+  opacity: 0.6;
   position: fixed;
   top: 45%;
   right: -150px;
@@ -702,7 +702,7 @@ svg:hover .svg-gray {
   width: 200px;
   height: 60px;
   background: white;
-  opacity: .6;
+  opacity: 0.6;
   position: fixed;
   top: 45%;
   left: -150px;
@@ -747,7 +747,7 @@ svg:hover .svg-gray {
 
 .right-arrow-h5:hover,
 .left-arrow-h5:hover {
-  opacity: .7; }
+  opacity: 0.7; }
 
 /********************** HEADER*******************/
 .top-of-header-container {
@@ -792,7 +792,7 @@ svg:hover .svg-gray {
   color: darkgray;
   font-style: italic;
   font-weight: 100;
-  border-bottom: .5px solid darkgray; }
+  border-bottom: 0.5px solid darkgray; }
 
 .project-description {
   margin-bottom: 50px; }
@@ -865,6 +865,31 @@ svg:hover .svg-gray {
   z-index: 100; }
 
 /********************** PROJECT SPECIFIC BACKGROUND IMAGES*******************/
+#header-image-container-rescue {
+  background-image: url(/img/rescue_img/rescue_public.png); }
+
+#bottom-project-container-left-rescue {
+  background-image: url(/img/rescue_img/rescue_request.png); }
+
+#bottom-project-container-right-top-rescue {
+  background-image: url(/img/rescue_img/rescue_list.png); }
+
+#bottom-project-container-right-bottom-rescue {
+  background-image: url(/img/rescue_img/rescue_dash.png); }
+
+#header-image-container-shopcarsnow {
+  background-image: url(/img/shop_cars_now_img/shop_cars_now_full.png);
+  background-position: top; }
+
+#bottom-project-container-left-shopcarsnow {
+  background-image: url(/img/shop_cars_now_img/shop_cars_now_accessories.png); }
+
+#bottom-project-container-right-top-shopcarsnow {
+  background-image: url(/img/shop_cars_now_img/shop_cars_now_models.png); }
+
+#bottom-project-container-right-bottom-shopcarsnow {
+  background-image: url(/img/shop_cars_now_img/shop_cars_now_top.png); }
+
 #header-image-container-resume {
   background-image: url(/img/resume_app_img/resume_app_homescreen.png); }
 
@@ -1434,6 +1459,12 @@ svg:hover .svg-gray {
   height: 1px;
   width: 20px;
   border: 0.5px solid #E5E5E5; }
+
+#shop_cars_now-work-container {
+  background-image: url(/img/shop_cars_now_img/shop_cars_now_full.png); }
+
+#rescue-work-container {
+  background-image: url(/img/rescue_img/rescue_public.png); }
 
 #cams-work-container {
   background-image: url(/img/cams_img/cams_home.png); }

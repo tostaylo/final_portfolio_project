@@ -1,137 +1,144 @@
 #work-image-container {
-    width: 90%;
-    height: auto;
-    margin: 0 auto;
-    position: relative;
-    z-index: 100;
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  z-index: 100;
 }
 
 .work-container-row {
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-    margin: 20px 0;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  margin: 20px 0;
 }
 
 .work {
-    width: 300px;
-    height: 300px;
-    margin: 10px auto;
-    background: black;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    cursor: pointer;
-    margin-top: 60px;
-    border: 1px solid $gray-color;
+  width: 300px;
+  height: 300px;
+  margin: 10px auto;
+  background: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  margin-top: 60px;
+  border: 1px solid $gray-color;
 }
 
 .work-label-container {
-    width: 300px;
-    height: auto;
-    margin: 10px auto;
+  width: 300px;
+  height: auto;
+  margin: 10px auto;
 }
 
 .work-label-h2 {
-    margin: 0;
-    color: black;
-    font-family: 'Tinos', serif;
+  margin: 0;
+  color: black;
+  font-family: 'Tinos', serif;
 }
 
 .work-label-h5 {
-    margin: 0;
-    color: rebeccapurple;
-    font-family: 'Tinos', serif;
+  margin: 0;
+  color: rebeccapurple;
+  font-family: 'Tinos', serif;
 }
 
 .work-label-buffer {
-    height: 1px;
-    width: 20px;
-    border: .5px solid $gray-color;
+  height: 1px;
+  width: 20px;
+  border: 0.5px solid $gray-color;
+}
+
+#shop_cars_now-work-container {
+  background-image: url(/img/shop_cars_now_img/shop_cars_now_full.png);
+}
+#rescue-work-container {
+  background-image: url(/img/rescue_img/rescue_public.png);
 }
 
 #cams-work-container {
-    background-image: url(/img/cams_img/cams_home.png);
+  background-image: url(/img/cams_img/cams_home.png);
 }
 
 #slow-work-container {
-    background-image: url(/img/slow_img/slow_home.png);
+  background-image: url(/img/slow_img/slow_home.png);
 }
 
 #pawn-work-container {
-    background-image: url(/img/pawn_talk_img/pawntalk_narrow.png);
+  background-image: url(/img/pawn_talk_img/pawntalk_narrow.png);
 }
 
 #bicycle-work-container {
-    background-image: url(/img/bicycle_fatality_img/bicycle_data_visualization_full_desktop.png);
+  background-image: url(/img/bicycle_fatality_img/bicycle_data_visualization_full_desktop.png);
 }
 
 #fbg-work-container {
-    background-image: url(/img/finger_brain_go_img/finger_brain_go_desktop_signed_in.png);
+  background-image: url(/img/finger_brain_go_img/finger_brain_go_desktop_signed_in.png);
 }
 
 #bhg-work-container {
-    background-image: url(/img/the_bloodhound_group_img/thebloodhoundgroup_home_desktop.png);
+  background-image: url(/img/the_bloodhound_group_img/thebloodhoundgroup_home_desktop.png);
 }
 
 #marinero-work-container {
-    background-image: url(/img/marinero_img/JessSmokePortfolio.jpg);
+  background-image: url(/img/marinero_img/JessSmokePortfolio.jpg);
 }
 
 #resume-work-container {
-    background-image: url(/img/resume_app_img/resume_app_homescreen.png);
+  background-image: url(/img/resume_app_img/resume_app_homescreen.png);
 }
 
 #lightbox-work-container {
-    background-image: url(/img/lightbox_img/lightbox_lightbox.jpg);
+  background-image: url(/img/lightbox_img/lightbox_lightbox.jpg);
 }
 
 #web-dashboard-work-container {
-    background-image: url(/img/web_dashboard_img/web_dashboard_full.jpg);
+  background-image: url(/img/web_dashboard_img/web_dashboard_full.jpg);
 }
 
 #video-player-work-container {
-    background-image: url(/img/video_player_img/video_player_mobile.jpg);
-    background-position: top;
+  background-image: url(/img/video_player_img/video_player_mobile.jpg);
+  background-position: top;
 }
 
 #web-api-work-container {
-    background-image: url(/img/web_api_img/web_api_full.jpg);
-    background-position: top;
+  background-image: url(/img/web_api_img/web_api_full.jpg);
+  background-position: top;
 }
 
 #taylor-fitness-work-container {
-    background-image: url(/img/taylor_fitness_coaching_img/taylor_fitness_coaching_mobile.png);
-    background-position: top;
-    background-size: 105%;
+  background-image: url(/img/taylor_fitness_coaching_img/taylor_fitness_coaching_mobile.png);
+  background-position: top;
+  background-size: 105%;
 }
 
 #contact-work-container {
-    background-image: url(/img/contact_form_img/contact-page_full_desktop.jpg);
-    background-position: top;
+  background-image: url(/img/contact_form_img/contact-page_full_desktop.jpg);
+  background-position: top;
 }
 
 #codewars-work-container {
-    background-image: url(/img/codewars_img/codewars_mobile.png);
-    background-position: top;
+  background-image: url(/img/codewars_img/codewars_mobile.png);
+  background-position: top;
 }
 
 #media-work-container {
-    background-image: url(/img/media_img/media.jpg);
-    background-position: center;
-    background-size: contain;
+  background-image: url(/img/media_img/media.jpg);
+  background-position: center;
+  background-size: contain;
 }
 
 .work:hover {
-    -webkit-animation: zoomin 2s;
-    -webkit-animation-fill-mode: forwards;
+  -webkit-animation: zoomin 2s;
+  -webkit-animation-fill-mode: forwards;
 }
 
 @-webkit-keyframes zoomin {
-    0% {
-        -webkit-transform: scale(1);
-    }
-    100% {
-        -webkit-transform: scale(1.05);
-    }
+  0% {
+    -webkit-transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.05);
+  }
 }
