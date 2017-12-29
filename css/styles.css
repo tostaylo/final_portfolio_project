@@ -865,6 +865,18 @@ svg:hover .svg-gray {
   z-index: 100; }
 
 /********************** PROJECT SPECIFIC BACKGROUND IMAGES*******************/
+#header-image-container-filter {
+  background-image: url(/img/filter_img/filter_red.png); }
+
+#bottom-project-container-left-filter {
+  background-image: url(/img/filter_img/filter_all.png); }
+
+#bottom-project-container-right-top-filter {
+  background-image: url(/img/filter_img/filter_4wd.png); }
+
+#bottom-project-container-right-bottom-filter {
+  background-image: url(/img/filter_img/filter_green.png); }
+
 #header-image-container-rescue {
   background-image: url(/img/rescue_img/rescue_public.png); }
 
@@ -1459,6 +1471,9 @@ svg:hover .svg-gray {
   height: 1px;
   width: 20px;
   border: 0.5px solid #E5E5E5; }
+
+#filter-work-container {
+  background-image: url(/img/filter_img/filter_red.png); }
 
 #shop_cars_now-work-container {
   background-image: url(/img/shop_cars_now_img/shop_cars_now_full.png); }
